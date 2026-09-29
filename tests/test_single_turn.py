@@ -608,6 +608,89 @@ transport.assert_not_called()
         self.assertEqual(first.read_bytes(), head)
         self.assertEqual(self.read_records('results_2.jsonl'), [record])
 
+    def test_multiple_data_files_map_to_matching_outputs(self):
+        """data 与 output 均为列表时一一对应，各数据集写入各自结果文件。"""
+        other = {**self.sample, 'id': 'E01'}
+        (self.root / 'data2.json').write_text(
+            json.dumps({'schema_version': 1, 'samples': [other]}),
+            encoding='utf-8',
+        )
+        config = yaml.safe_load(self.config.read_text(encoding='utf-8'))
+        config['data'] = ['data.json', 'data2.json']
+        config['output'] = ['zh.jsonl', 'en.jsonl']
+        self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
+        self.set_concurrency(1)
+        outputs = run(self.config, transport=self.transport)
+        self.assertEqual(
+            outputs, [self.root / name for name in ['zh.jsonl', 'en.jsonl']]
+        )
+        self.assertEqual(self.transport.call_count, 2)
+        record = {'id': 'T01', 'response': self.response, 'error': None}
+        self.assertEqual(self.read_records('zh.jsonl'), [record])
+        self.assertEqual(
+            self.read_records('en.jsonl'),
+            [{'id': 'E01', 'response': self.response, 'error': None}],
+        )
+
+    def test_multiple_data_with_repeat_expands_each_output(self):
+        """多 data 与 repeat 同时使用时，每个 output 各自按轮展开。"""
+        other = {**self.sample, 'id': 'E01'}
+        (self.root / 'data2.json').write_text(
+            json.dumps({'schema_version': 1, 'samples': [other]}),
+            encoding='utf-8',
+        )
+        config = yaml.safe_load(self.config.read_text(encoding='utf-8'))
+        config['data'] = ['data.json', 'data2.json']
+        config['output'] = ['zh.jsonl', 'en.jsonl']
+        config['repeat'] = 2
+        self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
+        outputs = run(self.config, transport=self.transport)
+        self.assertEqual(
+            outputs,
+            [
+                self.root / name
+                for name in ['zh_1.jsonl', 'zh_2.jsonl', 'en_1.jsonl', 'en_2.jsonl']
+            ],
+        )
+        self.assertEqual(self.transport.call_count, 4)
+
+    def test_multiple_data_requires_matching_outputs(self):
+        """data 为多个文件时，output 必须是等长列表且不得重复。"""
+        (self.root / 'data2.json').write_text(
+            json.dumps({'schema_version': 1, 'samples': [self.sample]}),
+            encoding='utf-8',
+        )
+        base = yaml.safe_load(self.config.read_text(encoding='utf-8'))
+        base['data'] = ['data.json', 'data2.json']
+        cases = [
+            'results.jsonl',
+            ['zh.jsonl'],
+            ['zh.jsonl', 'zh.jsonl'],
+            ['zh.jsonl', 'en.jsonl', 'fr.jsonl'],
+        ]
+        for output in cases:
+            with self.subTest(invalid=output):
+                config = {**base, 'output': output}
+                self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
+                with self.assertRaises(ValueError):
+                    run(self.config, transport=self.transport)
+        self.transport.assert_not_called()
+
+    def test_data_field_is_validated(self):
+        """data 必须是单个非空字符串，或全为非空字符串的列表。"""
+        base = yaml.safe_load(self.config.read_text(encoding='utf-8'))
+        for value in [[], ['data.json', ''], [1], {}, None]:
+            with self.subTest(invalid=value):
+                config = {**base, 'data': value}
+                self.config.write_text(yaml.safe_dump(config), encoding='utf-8')
+                with self.assertRaises(ValueError):
+                    run(self.config, transport=self.transport)
+        self.transport.assert_not_called()
+        single = {**base, 'data': ['data.json']}
+        self.config.write_text(yaml.safe_dump(single), encoding='utf-8')
+        output = run(self.config, transport=self.transport)
+        self.assertEqual(output, self.root / 'results.jsonl')
+
     def test_repeat_is_validated(self):
         """repeat 只接受不小于 1 的整数，配置为 1 时与默认单次运行一致。"""
         for value in [0, -1, True, '2', 1.5, [2]]:

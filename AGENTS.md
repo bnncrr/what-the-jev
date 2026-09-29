@@ -39,8 +39,8 @@
 | --- | --- | --- |
 | `model` | 是 | 模型 ID，如 `typesafe/jev-1.13` |
 | `endpoint` | 是 | 请求地址，如 `https://openrouter.ai/api/alpha/decisions` |
-| `data` | 是 | 数据集路径，相对配置文件所在目录 |
-| `output` | 是 | 结果路径，必须以 `.jsonl` 结尾，相对配置文件所在目录 |
+| `data` | 是 | 数据集路径，相对配置文件所在目录；可为路径列表（如双语 `dataset_zh.json` 与 `dataset_en.json`），此时与 `output` 列表一一对应 |
+| `output` | 是 | 结果路径，必须以 `.jsonl` 结尾，相对配置文件所在目录；`data` 为列表时必须为与其等长的列表，路径不得重复 |
 | `concurrency` | 否 | 初始并发度，取 1 到 16，默认 4 |
 | `repeat` | 否 | 重复轮数，不小于 1，默认 1；大于 1 时结果写为 `responses_1.jsonl`、`responses_2.jsonl` 等 |
 

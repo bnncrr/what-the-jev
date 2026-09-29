@@ -29,22 +29,32 @@ logger = logging.getLogger(__name__)
 
 
 def run(config_path: str | Path, transport: Transport = predict) -> Path | list[Path]:
-    """校验输入并请求尚未记录的样本；repeat 大于 1 时逐轮运行，返回路径列表。"""
+    """校验输入并请求尚未记录的样本；多数据逐对运行，repeat 大于 1 时逐轮运行。"""
     path = Path(config_path).resolve()
     logger.info('加载配置文件: %s', path)
     config = load_config(path)
-    samples = load_dataset(path.parent / config['data'])
     api_key = os.environ.get('OPENROUTER_API_KEY', '').strip()
     if not api_key:
         raise ValueError('需要设置 OPENROUTER_API_KEY。')
+    datas = [config['data']] if isinstance(config['data'], str) else config['data']
     configured = config['output']
     outputs = [configured] if isinstance(configured, str) else configured
+    repeat = config['repeat']
     results: list[Path] = []
-    for index, name in enumerate(outputs, start=1):
-        if len(outputs) > 1:
-            logger.info('轮次 %d/%d', index, len(outputs))
-        output = (path.parent / name).resolve()
-        results.append(_run_once(samples, config, api_key, transport, output))
+    for data_index, data_name in enumerate(datas):
+        samples = load_dataset(path.parent / data_name)
+        # output 已按 data 顺序再按轮次展开：单 data 时全部轮次属于它
+        if len(datas) == 1:
+            names = outputs
+        else:
+            names = outputs[data_index * repeat : (data_index + 1) * repeat]
+        if len(datas) > 1:
+            logger.info('数据 %d/%d：%s', data_index + 1, len(datas), data_name)
+        for index, name in enumerate(names, start=1):
+            if len(names) > 1:
+                logger.info('轮次 %d/%d', index, len(names))
+            output = (path.parent / name).resolve()
+            results.append(_run_once(samples, config, api_key, transport, output))
     return results[0] if isinstance(configured, str) else results
 
 

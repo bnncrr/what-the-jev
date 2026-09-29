@@ -16,7 +16,7 @@ class RunConfig(TypedDict):
 
     model: str
     endpoint: str
-    data: str
+    data: str | list[str]  # 多个数据文件时与 output 一一对应，便于双语并行
     output: str | list[str]  # repeat 大于 1 时展开为逐轮结果文件路径
     concurrency: int  # 初始并发度；运行中按成败动态调整，上限 MAX_CONCURRENCY
     repeat: int  # 重复运行轮数，每轮写入独立的结果文件
@@ -30,17 +30,46 @@ def load_config(path: Path) -> RunConfig:
         raise ValueError(
             f'配置字段必须为：{sorted(REQUIRED_FIELDS)}，可另加 concurrency、repeat'
         )
-    for name in sorted(REQUIRED_FIELDS):
+    for name in ('model', 'endpoint'):
         value = config[name]
         if not isinstance(value, str) or not value.strip():
             raise ValueError(f'配置 {name} 必须为非空字符串')
-    if Path(config['output']).suffix != '.jsonl':
+    datas = _paths(config['data'], 'data')
+    outputs = _paths(config['output'], 'output')
+    if any(Path(name).suffix != '.jsonl' for name in outputs):
         raise ValueError('output 必须为 .jsonl 文件路径')
+    if len(datas) > 1 and len(outputs) != len(datas):
+        raise ValueError('data 为多个文件时，output 必须为与其等长的列表')
+    if len(set(outputs)) != len(outputs):
+        raise ValueError('output 路径不得重复')
+    config['data'] = datas[0] if len(datas) == 1 else datas
     config['concurrency'] = _concurrency(config.get('concurrency'))
     config['repeat'] = _repeat(config.get('repeat'))
     if config['repeat'] > 1:
-        config['output'] = _repeat_outputs(config['output'], config['repeat'])
+        expanded = [
+            _repeat_outputs(name, config['repeat'])
+            for name in outputs
+        ]
+        config['output'] = [
+            name for names in expanded for name in names
+        ]
+    else:
+        config['output'] = outputs[0] if len(outputs) == 1 else outputs
     return config
+
+
+def _paths(value: object, name: str) -> list[str]:
+    """校验路径字段：单个非空字符串，或全为非空字符串的列表。"""
+    if isinstance(value, str) and value.strip():
+        return [value]
+    if isinstance(value, list) and value:
+        items: list[str] = []
+        for item in value:
+            if not isinstance(item, str) or not item.strip():
+                raise ValueError(f'配置 {name} 必须为非空字符串或非空字符串列表')
+            items.append(item)
+        return items
+    raise ValueError(f'配置 {name} 必须为非空字符串或非空字符串列表')
 
 
 def _concurrency(value: object) -> int:
