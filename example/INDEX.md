@@ -4,12 +4,12 @@
 
 ## 一、历史常识
 
-1. [us-election](us-election/README.md) — 测试JEV模型能否回忆 1996 至 2024 年八届美国总统大选的胜选者。考的不是历史推理，而是常识记忆：这些事实是否在模型参数中。
+1. [us-election](us-election/README.md) — 测试JEV模型能否回忆 1996 至 2024 年八届美国总统大选的胜选者。考察的是 JEV 模型是否将这些事实记在了参数中。
 
 ## 二、算术与计算
 
 1. [math-word-problem](math-word-problem/README.md) — 测试JEV模型在小学算术应用题上的表现。两题：一题是 GSM8K 的原题，另一题是同结构改编题。
-2. [university-math](university-math/README.md) — 测试JEV模型在微积分、线性代数与概率计算题上的表现。每题的同一组选项另以逐项是非问一次，对照同一候选答案在两种问法下的读数。
+2. [university-math](university-math/README.md) — 测试JEV模型在微积分、线性代数与概率计算题上的表现。
 
 ## 三、图像识别
 

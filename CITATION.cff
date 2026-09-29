@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "what-the-jev: Single-turn decision experiments on Jev decision models"
+authors:
+  - family-names: Yan
+    given-names: Yixin
+  - family-names: Cao
+    given-names: Rong
+repository-code: "https://github.com/keta1930/what-the-jev"
+license: MIT
