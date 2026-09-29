@@ -10,18 +10,18 @@
         "questions": {
           "digit": {
             "type": "choice",
-            "instructions": "state.image is a 28×28 grayscale PNG of a handwritten digit, given as a data URI (base64-encoded). Judge which digit is written in the image.",
+            "instructions": "state.image 是一张 28×28 手写数字灰度图的 PNG 文件，以 data URI 给出（base64 编码）。判断图中写的是哪个数字。",
             "criteria": {
-              "0": "The digit 0.",
-              "1": "The digit 1.",
-              "2": "The digit 2.",
-              "3": "The digit 3.",
-              "4": "The digit 4.",
-              "5": "The digit 5.",
-              "6": "The digit 6.",
-              "7": "The digit 7.",
-              "8": "The digit 8.",
-              "9": "The digit 9."
+              "0": "数字 0。",
+              "1": "数字 1。",
+              "2": "数字 2。",
+              "3": "数字 3。",
+              "4": "数字 4。",
+              "5": "数字 5。",
+              "6": "数字 6。",
+              "7": "数字 7。",
+              "8": "数字 8。",
+              "9": "数字 9。"
             }
           }
         }

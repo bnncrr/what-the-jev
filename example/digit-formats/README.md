@@ -1,35 +1,35 @@
-# base64 编码图像的数字识别
+# Digit Recognition from a base64-Encoded Image
 
-本实验测试 Jev 模型能否从 base64 编码的图像中识别数字。
+This experiment tests whether the Jev model can recognize a digit from a base64-encoded image.
 
-包含 1 条数据：MNIST 测试集第 1 条，28×28 灰度手写数字图，以 PNG 文件的 data URI（base64 编码，362 字符）作为输入。
+It contains 1 sample: the first entry of the MNIST test split, a 28×28 grayscale handwritten digit given as a PNG data URI (base64-encoded, 362 characters).
 
-要求回答一个问题：
+One question is asked:
 
-1. 图中写的是哪个数字？从 `0` 到 `9` 中选出一项。（`choice`）
+1. "Judge which digit is written in the image." Choose one of `0` to `9`. (`choice`)
 
-   - `0`：数字 0。
-   - `1`：数字 1。
-   - `2`：数字 2。
-   - `3`：数字 3。
-   - `4`：数字 4。
-   - `5`：数字 5。
-   - `6`：数字 6。
-   - `7`：数字 7。
-   - `8`：数字 8。
-   - `9`：数字 9。
+   - `0`: "The digit 0."
+   - `1`: "The digit 1."
+   - `2`: "The digit 2."
+   - `3`: "The digit 3."
+   - `4`: "The digit 4."
+   - `5`: "The digit 5."
+   - `6`: "The digit 6."
+   - `7`: "The digit 7."
+   - `8`: "The digit 8."
+   - `9`: "The digit 9."
 
-## 结果
+## Results
 
-样本真实标签为 7。`digit` 判为 `1`，判错。
+The sample's true label is 7. `digit` was judged `1`, which is wrong.
 
-各选项概率：`1` 0.40、`0` 0.25，其余八项在 0.02 到 0.08 之间，正确选项 `7` 为 0.06，低于十选项均分水平 0.10。`confidence` 0.33。
+Per-option probabilities: `1` 0.35, `0` 0.25, the other eight options between 0.02 and 0.08, and the correct option `7` at 0.08, below the uniform level of 0.10 across ten options. `confidence` 0.28.
 
-分布并不均匀，但集中落在错误选项上：模型未能从 base64 编码中识别出数字。
+The distribution is not uniform, but it concentrates on a wrong option: the model failed to read the digit from the base64 encoding.
 
-成本：输入 713 个 token，输出 87 个，费用 `0.000029946` 美元。输出不计费。
+Cost: 707 input tokens, 87 output tokens, `0.000029694` USD. Output tokens are not billed.
 
-## 复现
+## Reproduce
 
 ```bash
 pip install -r requirements.txt
@@ -37,4 +37,4 @@ export OPENROUTER_API_KEY='<key>'
 python run.py example/digit-formats/config.yaml
 ```
 
-结果追加写入 `result/responses.jsonl`。每条数据每轮运行只请求一次，重跑时跳过已成功的记录；上次运行失败的记录会被清理并自动重新请求。
+The run processes the English dataset `data/dataset.json` and the Chinese dataset `data/dataset_zh.json`, appending results to `result/responses.jsonl` and `result/responses_zh.jsonl` respectively. Each sample is requested only once per run; records that already succeeded are skipped on reruns, and records that failed in the previous run are cleared and requested again.

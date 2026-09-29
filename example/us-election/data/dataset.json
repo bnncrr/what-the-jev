@@ -4,161 +4,177 @@
     {
       "id": "E01",
       "input": {
-        "state": "2024年美国总统大选",
+        "state": "The 2024 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
-              "democratic": "民主党候选人卡玛拉·哈里斯（Kamala Harris）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate Donald Trump wins.",
+              "democratic": "The Democratic candidate Kamala Harris wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "republican"}
+        "winner": {
+          "choice": "republican"
+        }
       }
     },
     {
       "id": "E02",
       "input": {
-        "state": "2020年美国总统大选",
+        "state": "The 2020 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
-              "democratic": "民主党候选人乔·拜登（Joe Biden）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate Donald Trump wins.",
+              "democratic": "The Democratic candidate Joe Biden wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "democratic"}
+        "winner": {
+          "choice": "democratic"
+        }
       }
     },
     {
       "id": "E03",
       "input": {
-        "state": "2016年美国总统大选",
+        "state": "The 2016 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
-              "democratic": "民主党候选人希拉里·克林顿（Hillary Clinton）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate Donald Trump wins.",
+              "democratic": "The Democratic candidate Hillary Clinton wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "republican"}
+        "winner": {
+          "choice": "republican"
+        }
       }
     },
     {
       "id": "E04",
       "input": {
-        "state": "2012年美国总统大选",
+        "state": "The 2012 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人米特·罗姆尼（Mitt Romney）获胜。",
-              "democratic": "民主党候选人贝拉克·奥巴马（Barack Obama）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate Mitt Romney wins.",
+              "democratic": "The Democratic candidate Barack Obama wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "democratic"}
+        "winner": {
+          "choice": "democratic"
+        }
       }
     },
     {
       "id": "E05",
       "input": {
-        "state": "2008年美国总统大选",
+        "state": "The 2008 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人约翰·麦凯恩（John McCain）获胜。",
-              "democratic": "民主党候选人贝拉克·奥巴马（Barack Obama）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate John McCain wins.",
+              "democratic": "The Democratic candidate Barack Obama wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "democratic"}
+        "winner": {
+          "choice": "democratic"
+        }
       }
     },
     {
       "id": "E06",
       "input": {
-        "state": "2004年美国总统大选",
+        "state": "The 2004 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人乔治·沃克·布什（George W. Bush）获胜。",
-              "democratic": "民主党候选人约翰·克里（John Kerry）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate George W. Bush wins.",
+              "democratic": "The Democratic candidate John Kerry wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "republican"}
+        "winner": {
+          "choice": "republican"
+        }
       }
     },
     {
       "id": "E07",
       "input": {
-        "state": "2000年美国总统大选",
+        "state": "The 2000 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人乔治·沃克·布什（George W. Bush）获胜。",
-              "democratic": "民主党候选人阿尔·戈尔（Al Gore）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate George W. Bush wins.",
+              "democratic": "The Democratic candidate Al Gore wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "republican"}
+        "winner": {
+          "choice": "republican"
+        }
       }
     },
     {
       "id": "E08",
       "input": {
-        "state": "1996年美国总统大选",
+        "state": "The 1996 US presidential election",
         "questions": {
           "winner": {
             "type": "choice",
-            "instructions": "判断该次大选由哪位候选人获胜。",
+            "instructions": "Judge which candidate won this election.",
             "criteria": {
-              "republican": "共和党候选人鲍勃·多尔（Bob Dole）获胜。",
-              "democratic": "民主党候选人比尔·克林顿（Bill Clinton）获胜。",
-              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+              "republican": "The Republican candidate Bob Dole wins.",
+              "democratic": "The Democratic candidate Bill Clinton wins.",
+              "other": "Another candidate wins, the election has not been held, or the winner cannot be determined."
             }
           }
         }
       },
       "reference": {
-        "winner": {"choice": "democratic"}
+        "winner": {
+          "choice": "democratic"
+        }
       }
     }
   ]

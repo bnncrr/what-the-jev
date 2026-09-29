@@ -1,38 +1,38 @@
-# 工单分诊
+# Ticket Triage
 
-本实验测试 Jev 模型对客服工单的判断能力。
+This experiment tests the Jev model's judgment on customer support tickets.
 
-包含 1 条数据。
+It contains 1 sample.
 
-Q：「同一笔订单被扣款两次，请退回重复扣的钱。」
+Ticket: "I was charged twice for the same order. Please refund the duplicate charge."
 
-要求 Jev 判断三件事：
+Jev is asked to judge three things:
 
-1. 这张工单属于哪类问题？从 `billing`、`technical`、`account`、`feature`、`other` 中选出一项。（`choice`）
+1. Which category does this ticket belong to? Choose one of `billing`, `technical`, `account`, `feature`, `other`. (`choice`)
 
-2. 客户是否实际要求退回款项？答案是 0 到 1 之间的概率，表示条件成立的可能性。（`noul`）
+2. Does the customer actually ask for money back? The answer is a probability between 0 and 1, giving the likelihood that the condition holds. (`noul`)
 
-3. 这张工单有多紧急？答案是一个 0 到 2 之间的位置值，落在某一级或两级之间。（`score`）
+3. How urgent is this ticket? The answer is a position value between 0 and 2, falling on one level or between two levels. (`score`)
 
-   - `0`：一般咨询或功能建议，可等到后续版本处理。
-   - `1`：影响单个客户使用或存在账单争议，需要近期处理。
-   - `2`：大范围服务中断、持续资金损失或关键业务完全阻塞，需要立即处理。
+   - `0`: "General inquiry or feature suggestion; can wait for a later release."
+   - `1`: "Affects a single customer's usage or involves a billing dispute; needs handling soon."
+   - `2`: "Large-scale service outage, ongoing financial loss, or a completely blocked critical business process; needs immediate handling."
 
-## 结果
+## Results
 
-Jev 模型成功分类了这张工单。
+The Jev model classified this ticket correctly.
 
-`category` 判为 `billing`。
+`category` was judged `billing`.
 
-`refund` 给出 0.98，即认定客户要求退款。
+`refund` came out 0.98, meaning the model holds that the customer is asking for a refund.
 
-`urgency` 落在等级 1。
+`urgency` fell on level 1.
 
-`category` 与 `urgency` 的 `confidence` 均为 1。
+`confidence` was 1 for both `category` and `urgency`.
 
-成本：输入 684 个 token，输出 83 个，费用 `0.000028728` 美元。输出不计费。
+Cost: 616 input tokens, 83 output tokens, `0.000025872` USD. Output tokens are not billed.
 
-## 复现
+## Reproduce
 
 ```bash
 pip install -r requirements.txt
@@ -40,4 +40,4 @@ export OPENROUTER_API_KEY='<key>'
 python run.py example/ticket-triage/config.yaml
 ```
 
-结果追加写入 `result/responses.jsonl`。每条数据每轮运行只请求一次，重跑时跳过已成功的记录；上次运行失败的记录会被清理并自动重新请求。
+The run processes the English dataset `data/dataset.json` and the Chinese dataset `data/dataset_zh.json`, appending results to `result/responses.jsonl` and `result/responses_zh.jsonl` respectively. Each sample is requested only once per run; records that already succeeded are skipped on reruns, and records that failed in the previous run are cleared and requested again.

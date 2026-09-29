@@ -1,24 +1,24 @@
-# 美国总统大选结果
+# US Presidential Election Results
 
-本实验测试 Jev 模型是否掌握 1996 年至 2024 年八届美国总统大选的结果。
+This experiment tests whether the Jev model knows the outcomes of the eight US presidential elections from 1996 to 2024.
 
-包含 8 条数据，每届大选一条，主题分别为「2024年美国总统大选」「2020年美国总统大选」「2016年美国总统大选」「2012年美国总统大选」「2008年美国总统大选」「2004年美国总统大选」「2000年美国总统大选」「1996年美国总统大选」。
+It contains 8 samples, one per election, with states "The 2024 US presidential election", "The 2020 US presidential election", "The 2016 US presidential election", "The 2012 US presidential election", "The 2008 US presidential election", "The 2004 US presidential election", "The 2000 US presidential election", and "The 1996 US presidential election".
 
-每条要求回答同一个问题：
+Each sample asks the same question:
 
-1. 该次大选由哪位候选人获胜？从 `republican`、`democratic`、`other` 中选出一项。（`choice`）
+1. "Judge which candidate won this election." Choose one of `republican`, `democratic`, `other`. (`choice`)
 
-   - `republican`：共和党候选人获胜。各届候选人依次为特朗普、特朗普、特朗普、罗姆尼、麦凯恩、布什、布什、多尔。
-   - `democratic`：民主党候选人获胜。各届候选人依次为哈里斯、拜登、希拉里·克林顿、奥巴马、奥巴马、克里、戈尔、比尔·克林顿。
-   - `other`：其他候选人获胜、选举尚未举行，或无法确定获胜者。
+   - `republican`: the Republican candidate wins. The candidates by election are Trump, Trump, Trump, Romney, McCain, Bush, Bush, Dole.
+   - `democratic`: the Democratic candidate wins. The candidates by election are Harris, Biden, Hillary Clinton, Obama, Obama, Kerry, Gore, Bill Clinton.
+   - `other`: "Another candidate wins, the election has not been held, or the winner cannot be determined."
 
-## 结果
+## Results
 
-`winner`：八届全部判对。2024年一届判 `republican` 但带有保留（`republican` 0.60、`other` 0.39，`confidence` 0.41）；其余七届均以概率 1、`confidence` 1 确定判出获胜政党。
+`winner`: seven of the eight elections were judged correctly. The 2024 election was judged `other`, contradicting the reference answer `republican` (`other` 0.53, `republican` 0.44, `democratic` 0.03, `confidence` 0.30); the model leaned toward `republican` but fell back to `other`. The other seven elections were each judged at probability 1 and `confidence` 1.
 
-成本：输入 3239 个 token，输出 352 个，费用 `0.000136038` 美元。输出不计费。
+Cost: 2896 input tokens, 350 output tokens, `0.000121632` USD. Output tokens are not billed.
 
-## 复现
+## Reproduce
 
 ```bash
 pip install -r requirements.txt
@@ -26,4 +26,4 @@ export OPENROUTER_API_KEY='<key>'
 python run.py example/us-election/config.yaml
 ```
 
-结果追加写入 `result/responses.jsonl`。每条数据每轮运行只请求一次，重跑时跳过已成功的记录；上次运行失败的记录会被清理并自动重新请求。
+The run processes the English dataset `data/dataset.json` and the Chinese dataset `data/dataset_zh.json`, appending results to `result/responses.jsonl` and `result/responses_zh.jsonl` respectively. Each sample is requested only once per run; records that already succeeded are skipped on reruns, and records that failed in the previous run are cleared and requested again.

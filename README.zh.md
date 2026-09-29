@@ -24,7 +24,7 @@ what-the-jev/
 └── docs/jev/               【AGENT】JEV 知识库
 ```
 
-轻量级示例的完整索引见 [example/INDEX.md](example/INDEX.md)。
+轻量级示例的完整索引见 [example/INDEX.zh.md](example/INDEX.zh.md)。
 
 ## 欢迎贡献
 

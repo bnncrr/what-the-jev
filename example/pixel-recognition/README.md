@@ -1,48 +1,48 @@
-# 从像素识别数字与动物
+# Recognizing Digits and Animals from Pixels
 
-本实验测试 Jev 模型能否仅凭像素数值识别图像内容。
+This experiment tests whether the Jev model can recognize image content from pixel values alone.
 
-包含 2 条数据：MNIST 测试集第 1 条（28×28 灰度手写数字图），CIFAR-10 测试集第 1 条（32×32 彩色动物图）。输入只有像素数值矩阵，不含图像文件。
+It contains 2 samples: MNIST test item 1 (a 28×28 grayscale handwritten-digit image) and CIFAR-10 test item 1 (a 32×32 color animal image). The input is only the pixel value matrices; no image file is provided.
 
-每条要求回答一个问题：
+Each sample asks one question:
 
-1. 手写数字图中写的是哪个数字？输入是 28 行 28 列的灰度像素矩阵，行优先，值为 0 到 255，0 为黑色背景、255 为白色笔画。从 `0` 到 `9` 中选出一项。（`choice`）
+1. Which digit is written in the handwritten-digit image? The input is a grayscale pixel matrix of 28 rows by 28 columns, row-major, with values from 0 to 255, where 0 is the black background and 255 is the white stroke. Pick one of `0` through `9`. (`choice`)
 
-   - `0`：数字 0。
-   - `1`：数字 1。
-   - `2`：数字 2。
-   - `3`：数字 3。
-   - `4`：数字 4。
-   - `5`：数字 5。
-   - `6`：数字 6。
-   - `7`：数字 7。
-   - `8`：数字 8。
-   - `9`：数字 9。
+   - `0`: The digit 0.
+   - `1`: The digit 1.
+   - `2`: The digit 2.
+   - `3`: The digit 3.
+   - `4`: The digit 4.
+   - `5`: The digit 5.
+   - `6`: The digit 6.
+   - `7`: The digit 7.
+   - `8`: The digit 8.
+   - `9`: The digit 9.
 
-2. 彩色图中主体属于哪一类？输入是 `r`、`g`、`b` 三个 32 行 32 列的像素矩阵，行优先，值为 0 到 255。从 `airplane`、`automobile`、`bird`、`cat`、`deer`、`dog`、`frog`、`horse`、`ship`、`truck` 中选出一项。（`choice`）
+2. Which category does the main subject of the color image belong to? The input is three 32-by-32 pixel matrices `r`, `g`, `b`, row-major, with values from 0 to 255. Pick one of `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`. (`choice`)
 
-   - `airplane`：飞机。
-   - `automobile`：汽车。
-   - `bird`：鸟。
-   - `cat`：猫。
-   - `deer`：鹿。
-   - `dog`：狗。
-   - `frog`：蛙。
-   - `horse`：马。
-   - `ship`：船。
-   - `truck`：卡车。
+   - `airplane`: An airplane.
+   - `automobile`: An automobile.
+   - `bird`: A bird.
+   - `cat`: A cat.
+   - `deer`: A deer.
+   - `dog`: A dog.
+   - `frog`: A frog.
+   - `horse`: A horse.
+   - `ship`: A ship.
+   - `truck`: A truck.
 
-## 结果
+## Results
 
-两个问题上 Jev 都未能从像素数值识别出图像内容，概率分布接近均匀，等同随机选择。
+On both questions Jev failed to recognize the image content from pixel values; the probability distributions are near-uniform, equivalent to random choice.
 
-MNIST 样本真实标签为 7。`digit` 判为 `2`，判错。十个选项的概率落在 0.04 到 0.21 之间，正确选项 `7` 仅 0.11，`confidence` 0.11。
+The MNIST sample's true label is 7. `digit` was judged `2`, which is wrong. The ten options' probabilities fall between 0.05 and 0.18, the correct option `7` got only 0.10, and `confidence` is 0.08.
 
-CIFAR-10 样本真实标签为 `cat`。`category` 判为 `airplane`，判错。十个选项的概率落在 0.03 到 0.14 之间，`cat` 为 0.13，`confidence` 0.06。
+The CIFAR-10 sample's true label is `cat`. `category` was judged `airplane`, which is wrong. The ten options' probabilities fall between 0.03 and 0.17, `cat` got 0.13, and `confidence` is 0.06.
 
-成本：输入 13959 个 token，输出 178 个，费用 `0.000586278` 美元。输出不计费。
+Cost: 13934 input tokens, 178 output tokens, total charge `0.000585228` USD. Output tokens are not billed.
 
-## 复现
+## Reproduce
 
 ```bash
 pip install -r requirements.txt
@@ -50,4 +50,4 @@ export OPENROUTER_API_KEY='<key>'
 python run.py example/pixel-recognition/config.yaml
 ```
 
-结果追加写入 `result/responses.jsonl`。每条数据每轮运行只请求一次，重跑时跳过已成功的记录；上次运行失败的记录会被清理并自动重新请求。
+One run requests both the English dataset and the Chinese dataset, appending results to `result/responses.jsonl` and `result/responses_zh.jsonl` respectively. Each sample is requested only once per run; reruns skip records that already succeeded, and records that failed in the previous run are cleared and requested again automatically.
