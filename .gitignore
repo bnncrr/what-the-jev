@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/.file/
+.claude/brainstorming/
+.vscode/
+
+# LaTeX 中间产物
+template/*.aux
+template/*.log
+template/*.out
+template/*.bbl
+template/*.blg
+experiments/*/report/*.aux
+experiments/*/report/*.log
+experiments/*/report/*.out
+experiments/*/report/*.bbl
+experiments/*/report/*.blg

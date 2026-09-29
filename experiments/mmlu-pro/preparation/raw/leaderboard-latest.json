@@ -1,0 +1,4103 @@
+[
+  {
+    "rank": 1,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 88.12,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-180B-RSI",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-180B-RSI",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "MMLU-Pro test, all 12,032 items; single sample (temperature=1.0, top_p=0.95, top_k=20); thinking budget 131,072 tokens; bf16",
+    "lower_is_better": false,
+    "num_parameters": 179999981459
+  },
+  {
+    "rank": 2,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 88,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/dd/c9/ddc99cec-f5d3-4cc4-9cc5-bb534377b5f6.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 37,
+    "modelId": "MiniMaxAI/MiniMax-M2.1",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 228689764864
+  },
+  {
+    "rank": 3,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 88,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/internlm/Intern-S2-Preview",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 2,
+    "modelId": "internlm/Intern-S2-Preview",
+    "author": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png",
+      "fullname": "Intern Large Models",
+      "name": "internlm",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1315,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 36098254656
+  },
+  {
+    "rank": 4,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 87.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 9,
+    "modelId": "Qwen/Qwen3.5-397B-A17B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 403397928944
+  },
+  {
+    "rank": 5,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 87.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 110,
+    "modelId": "deepseek-ai/DeepSeek-V4-Pro",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1598839674782
+  },
+  {
+    "rank": 6,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 87.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "5f1158120c833276f61f1a84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+        "fullname": "Niels Rogge",
+        "name": "nielsr",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 1319,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 51,
+    "modelId": "moonshotai/Kimi-K2.5",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1026879376368
+  },
+  {
+    "rank": 7,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 86.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 560524578816
+  },
+  {
+    "rank": 8,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 86.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 6,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 302826566168
+  },
+  {
+    "rank": 9,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 86.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/af/3c/af3c554a-1eb9-4a79-80dd-678c7aebf0aa.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 24,
+    "modelId": "Qwen/Qwen3.5-122B-A10B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 125086497008
+  },
+  {
+    "rank": 10,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 86.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 11,
+    "modelId": "deepseek-ai/DeepSeek-V4-Flash",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 290944616402
+  },
+  {
+    "rank": 11,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 86.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 2,
+    "modelId": "Qwen/Qwen3.6-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 12,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 86.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "upstage/Solar-Open2-250B",
+    "author": {
+      "_id": "62940d125d1c94a62e838db2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649144feeb13c70f7671c603/bUxWC5jKltd-MyrrCNCv5.png",
+      "fullname": "upstage",
+      "name": "upstage",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1207,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 250287810304
+  },
+  {
+    "rank": 13,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 86.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/15/df/15df0778-3ca6-4ff9-9b34-41f74dc4ced4.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 47,
+    "modelId": "Qwen/Qwen3.5-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 14,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 86,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/76/7d/767d7365-4f30-4ac0-9fc4-e0ade16a161f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 80,
+    "modelId": "zai-org/GLM-5",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 753864139008
+  },
+  {
+    "rank": 15,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 85.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "Qwen/Qwen3.6-35B-A3B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 35951822704
+  },
+  {
+    "rank": 16,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 85,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 114,
+    "modelId": "deepseek-ai/DeepSeek-R1-0528",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 684531386000
+  },
+  {
+    "rank": 17,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 84.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/04/c7/04c77f44-dff1-4cc7-80a1-35f4e9e9237f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 27,
+    "modelId": "zai-org/GLM-4.5",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 358337791296
+  },
+  {
+    "rank": 18,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 84.4,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2602.10604",
+      "name": "Step 3.5 Flash Paper",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "stepfun-ai/Step-3.5-Flash",
+    "author": {
+      "_id": "66e43eae9d477f566f937935",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644f7e6233ac8f46fa0b9e26/CmF2ocXhkr2UtHXgmwq7-.png",
+      "fullname": "StepFun",
+      "name": "stepfun-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3168,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 199384301376
+  },
+  {
+    "rank": 19,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 84,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 242,
+    "modelId": "deepseek-ai/DeepSeek-R1",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 684489845504
+  },
+  {
+    "rank": 20,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 83.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 13,
+    "modelId": "LGAI-EXAONE/K-EXAONE-236B-A23B",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 237099669632
+  },
+  {
+    "rank": 21,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 83.73,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 22,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 83.73,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "RedHatAI/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "6586e2598dd42194879b59aa",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60466e4b4f40b01b66151416/cdABRow21BL0sl1vSVTPk.png",
+      "fullname": "Red Hat AI",
+      "name": "RedHatAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3182,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 23,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 83.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/4a/0a/4a0a0ab9-bb59-411e-a406-f6ac49a1e9f1.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "internlm/Intern-S1",
+    "author": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png",
+      "fullname": "Intern Large Models",
+      "name": "internlm",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1315,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 240709856128
+  },
+  {
+    "rank": 24,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 83.3,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "LGAI-EXAONE/EXAONE-4.5-33B",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 34350097664
+  },
+  {
+    "rank": 25,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 83,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/df/98/df9861f7-59cf-4b5e-8988-571481f47d14.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 41,
+    "modelId": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 235093634560
+  },
+  {
+    "rank": 26,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 82.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/1b/40/1b405e01-7137-4189-b5d2-83e0f4004dc9.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 33,
+    "modelId": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+    "author": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png",
+      "fullname": "ByteDance Seed",
+      "name": "ByteDance-Seed",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3632,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 36151104512
+  },
+  {
+    "rank": 27,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 82.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/19/91/1991ed80-048e-428c-a9f7-e32c71bd65ea.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "meituan-longcat/LongCat-Flash-Chat",
+    "author": {
+      "_id": "68b28d79a176a9beb30d2049",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png",
+      "fullname": "LongCat",
+      "name": "meituan-longcat",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4741,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 561862880256
+  },
+  {
+    "rank": 28,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 82,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 53,
+    "modelId": "MiniMaxAI/MiniMax-M2",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 228689764864
+  },
+  {
+    "rank": 29,
+    "filename": ".eval_results/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16.yaml",
+    "value": 81.94,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16 model card",
+      "isExternal": false
+    },
+    "pullRequest": 4,
+    "modelId": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 31577937344
+  },
+  {
+    "rank": 30,
+    "filename": ".eval_results/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.yaml",
+    "value": 81.62,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4 model card",
+      "isExternal": false
+    },
+    "modelId": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 17820210764
+  },
+  {
+    "rank": 31,
+    "filename": ".eval_results/A.X-K1.yaml",
+    "value": 81.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "name": "A.X K1 model card",
+      "isExternal": false
+    },
+    "modelId": "skt/A.X-K1",
+    "author": {
+      "_id": "608f5b129c5a8f8ddd85c41d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311a3f4d5a165db5d1d6862/XUPnKE9YqJcgORZoVOXMR.jpeg",
+      "fullname": "SK Telecom",
+      "name": "skt",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 551,
+      "isUserFollowing": false
+    },
+    "notes": "English MMLU-Pro score reported in Thinking Mode.",
+    "lower_is_better": false,
+    "num_parameters": 518983059456
+  },
+  {
+    "rank": 32,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 81.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/07/43/074397da-f5e5-441c-bc45-ac16b599ca7c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 16,
+    "modelId": "zai-org/GLM-4.5-Air",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 110468824832
+  },
+  {
+    "rank": 33,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 81.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 91,
+    "modelId": "deepseek-ai/DeepSeek-V3-0324",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 684531386000
+  },
+  {
+    "rank": 34,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 81.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/3b/7b/3b7bfaac-ee52-4508-8ecd-676d82e06c1c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 8,
+    "modelId": "MiniMaxAI/MiniMax-M1-40k",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 456089655296
+  },
+  {
+    "rank": 35,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 81.02,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 6,
+    "modelId": "jdopensource/JoyAI-LLM-Flash",
+    "author": {
+      "_id": "68cb7c874f4a1865540c455c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c0e2ab44ea28a974e3074b/g-4gTubd16qUtwmGZ0n4h.png",
+      "fullname": "JD.com Open Source",
+      "name": "jdopensource",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 413,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 49286094592
+  },
+  {
+    "rank": 36,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 81,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/4a/ae/4aae2732-e24b-42a2-9dc1-a35cd215a8ec.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 70,
+    "modelId": "moonshotai/Kimi-K2-Instruct",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1026408235864
+  },
+  {
+    "rank": 37,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 80.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/46/a3/46a34cab-9475-40a1-ba07-2c0528f6bf5d.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 30532122624
+  },
+  {
+    "rank": 38,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 80.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/e4/8d/e48dbb1a-9e1a-4c99-abbf-cb32942b48e7.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 221,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 39,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 80.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/c5/4c/c54c4ee8-ff99-4cda-a81f-a2e3a4347fb8.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 61,
+    "modelId": "MiniMaxAI/MiniMax-M2.5",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 228703644928
+  },
+  {
+    "rank": 40,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 78.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/e6/6b/e66bffdc-f3d1-4808-90a4-43f204aa883e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 13,
+    "modelId": "baidu/ERNIE-4.5-300B-A47B-PT",
+    "author": {
+      "_id": "626a6d6b4909b521e1f59ce5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f187a2cc1c03340ac30498/TYYUxK8xD1AxExFMWqbZD.png",
+      "fullname": "BAIDU",
+      "name": "baidu",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3872,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 300474051776
+  },
+  {
+    "rank": 41,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 78.29,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 6,
+    "modelId": "meituan-longcat/LongCat-Flash-Lite",
+    "author": {
+      "_id": "68b28d79a176a9beb30d2049",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png",
+      "fullname": "LongCat",
+      "name": "meituan-longcat",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4741,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 69073335552
+  },
+  {
+    "rank": 42,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 75.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/2a/73/2a734d0f-7fcf-48d0-bea6-ad17cd749ee4.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 42,
+    "modelId": "MiniMaxAI/MiniMax-Text-01",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 456089655296
+  },
+  {
+    "rank": 43,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 73.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ca/ef/caef6dbc-0f07-4491-9009-2b0d26dc9724.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 256,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 44,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 71.59,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/06/60/06600438-ea9f-4078-8eef-701c59af71a4.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 4,
+    "modelId": "Qwen/Qwen2.5-72B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 72706203648
+  },
+  {
+    "rank": 45,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 70.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/c2/37/c23724de-5d83-4794-abcb-9af3ce249886.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 62,
+    "modelId": "microsoft/phi-4",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 14659507200
+  },
+  {
+    "rank": 46,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 69.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 24,
+    "modelId": "Qwen/Qwen3-4B-Instruct-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 4022468096
+  },
+  {
+    "rank": 47,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 69.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/bc/f1/bcf18d24-d600-4ed9-ba95-73f8d58569e1.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 12,
+    "modelId": "baidu/ERNIE-4.5-300B-A47B-Base-PT",
+    "author": {
+      "_id": "626a6d6b4909b521e1f59ce5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f187a2cc1c03340ac30498/TYYUxK8xD1AxExFMWqbZD.png",
+      "fullname": "BAIDU",
+      "name": "baidu",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3872,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 299484163264
+  },
+  {
+    "rank": 48,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 69.23,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/da/c5/dac51285-4928-4ac7-b052-510e4705981b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 4,
+    "modelId": "Qwen/Qwen2.5-32B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 32763876352
+  },
+  {
+    "rank": 49,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 68.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "XiaomiMiMo/MiMo-V2.5-Pro",
+    "author": {
+      "_id": "680cb4c37f289defb2210940",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680cb7d1233834890a64acee/5w_4aLfF-7MAyaIPOV498.jpeg",
+      "fullname": "Xiaomi MiMo",
+      "name": "XiaomiMiMo",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4752,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1023182841600
+  },
+  {
+    "rank": 50,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 68.18,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/99/98/99989790-84de-4fd9-af37-1d9c28dd95b3.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 45,
+    "modelId": "Qwen/Qwen3-235B-A22B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 235093634560
+  },
+  {
+    "rank": 51,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 67.94,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/03/98/03985ef7-288d-4421-9257-ce6b77dcd858.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 17,
+    "modelId": "mistralai/Mistral-Large-Instruct-2411",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 122610069504
+  },
+  {
+    "rank": 52,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 67.3,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/4b/ff/4bffdd42-60c3-41a9-9ef8-e5849e114d9e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 37,
+    "modelId": "tencent/Hunyuan-A13B-Instruct",
+    "author": {
+      "_id": "66543b6e420092799d2f625c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png",
+      "fullname": "Tencent",
+      "name": "tencent",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 12406,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 80393183232
+  },
+  {
+    "rank": 53,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 65.91,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b7/99/b799f854-5a9c-413c-b766-ab127e0cd103.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 31,
+    "modelId": "mistralai/Mistral-Large-Instruct-2407",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 122610069504
+  },
+  {
+    "rank": 54,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 65.83,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/65/c2/65c29cb3-af56-45f1-be1b-751630185a59.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 27,
+    "modelId": "deepseek-ai/DeepSeek-V2.5",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 235741434880
+  },
+  {
+    "rank": 55,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 65.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/cf/2d/cf2d98c9-1e57-4994-9e49-9a7962a2706d.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 6,
+    "modelId": "ByteDance-Seed/Seed-OSS-36B-Base",
+    "author": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png",
+      "fullname": "ByteDance Seed",
+      "name": "ByteDance-Seed",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3632,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 36151104512
+  },
+  {
+    "rank": 56,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 65.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/2a/e5/2ae5bb55-f5e3-4aa2-beef-141f450a4562.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 9,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 31577937344
+  },
+  {
+    "rank": 57,
+    "filename": ".eval_results/mmlu-pro.yaml",
+    "value": 64.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 116,
+    "modelId": "deepseek-ai/DeepSeek-V3",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 684531386000
+  },
+  {
+    "rank": 58,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 64.09,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 3,
+    "modelId": "ibm-granite/granite-4.1-30b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 28865728512
+  },
+  {
+    "rank": 59,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 63.69,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/cc/7c/cc7c2263-9baf-45fc-b58b-64c15989e358.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "Qwen/Qwen2.5-14B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 14770033664
+  },
+  {
+    "rank": 60,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 61.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/74/e6/74e614fc-75a5-4f12-b077-cbf525141a9f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 4,
+    "modelId": "Qwen/Qwen3-30B-A3B-Base",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 30532122624
+  },
+  {
+    "rank": 61,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 61.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/50/a3/50a33ec6-cf9b-4acc-9f45-61cd8356207c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 38,
+    "modelId": "meta-llama/Llama-3.1-405B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 405853388800
+  },
+  {
+    "rank": 62,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 60.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/8b/b3/8bb31817-e160-4285-a781-272851ae2c41.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 2,
+    "modelId": "nvidia/Nemotron-H-56B-Base-8K",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 56324350464
+  },
+  {
+    "rank": 63,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 60.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/60/1d/601d782d-660b-4f01-bcae-5c4105223c85.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 8,
+    "modelId": "ByteDance-Seed/Seed-OSS-36B-Base-woSyn",
+    "author": {
+      "_id": "67d1140985ea0644e2f14b99",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png",
+      "fullname": "ByteDance Seed",
+      "name": "ByteDance-Seed",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3632,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 36151104512
+  },
+  {
+    "rank": 64,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 60.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5c/9f/5c9f18ed-3247-4af2-b44f-2a504735554b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 23,
+    "modelId": "tencent/Tencent-Hunyuan-Large",
+    "author": {
+      "_id": "66543b6e420092799d2f625c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png",
+      "fullname": "Tencent",
+      "name": "tencent",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 12406,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false
+  },
+  {
+    "rank": 65,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 59.31,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Base-Pretrain",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "pre-training eval, no-tools, exact match",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 66,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 59.31,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Base",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "pre-training eval (pre-YaRN), no-tools, exact match",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 67,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 58.91,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/de/c9/dec9e4cf-cc67-42e1-9474-f8de9048014b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 6,
+    "modelId": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 32003200000
+  },
+  {
+    "rank": 68,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 58.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/eb/b6/ebb62699-a109-4160-9f12-152a17ac9c5b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 12,
+    "modelId": "XiaomiMiMo/MiMo-7B-RL",
+    "author": {
+      "_id": "680cb4c37f289defb2210940",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680cb7d1233834890a64acee/5w_4aLfF-7MAyaIPOV498.jpeg",
+      "fullname": "Xiaomi MiMo",
+      "name": "XiaomiMiMo",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4752,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7833409536
+  },
+  {
+    "rank": 69,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 57.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/46/a7/46a7e0d0-c351-46ac-99f0-98aebcf3fef7.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 22,
+    "modelId": "internlm/internlm3-8b-instruct",
+    "author": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png",
+      "fullname": "Intern Large Models",
+      "name": "internlm",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1315,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8804241408
+  },
+  {
+    "rank": 70,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 56.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5d/0e/5d0edbf1-b369-43eb-b885-d5a87c818d1f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 9,
+    "modelId": "baidu/ERNIE-4.5-21B-A3B-Base-PT",
+    "author": {
+      "_id": "626a6d6b4909b521e1f59ce5",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f187a2cc1c03340ac30498/TYYUxK8xD1AxExFMWqbZD.png",
+      "fullname": "BAIDU",
+      "name": "baidu",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3872,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 21825437888
+  },
+  {
+    "rank": 71,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 55.99,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 5,
+    "modelId": "ibm-granite/granite-4.1-8b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8791592960
+  },
+  {
+    "rank": 72,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 55.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/63/f9/63f9e7e6-d69f-4522-a81d-7280eacf730c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 17,
+    "modelId": "microsoft/Phi-3-medium-4k-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 13960238080
+  },
+  {
+    "rank": 73,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 54.81,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/a7/68/a768afc2-e0b4-4ea5-ba40-166136c33b3b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 19,
+    "modelId": "deepseek-ai/DeepSeek-V2-Chat",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 235741434880
+  },
+  {
+    "rank": 74,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 54.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/d4/89/d489ea6c-1287-43bd-aa64-5193c09331b2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 11,
+    "modelId": "mistralai/Mistral-Small-24B-Base-2501",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 23572403200
+  },
+  {
+    "rank": 75,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 52.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b2/6e/b26e73bc-2a30-4fa4-8223-148df3d82658.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 45,
+    "modelId": "microsoft/Phi-4-mini-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3836021760
+  },
+  {
+    "rank": 76,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 52.78,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/77/50/77508bc1-dc52-4a84-9df1-deb62975c053.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 25,
+    "modelId": "meta-llama/Meta-Llama-3-70B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 70553706496
+  },
+  {
+    "rank": 77,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 52.47,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/3b/18/3b18649e-fd29-4193-a8c1-6d6d93d1ebd2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 35,
+    "modelId": "meta-llama/Llama-3.1-70B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 70553706496
+  },
+  {
+    "rank": 78,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 52.29,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/67/6f/676f4465-ce78-411a-9f5a-c97b3d2eac4f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 18,
+    "modelId": "01-ai/Yi-1.5-34B-Chat",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 34388917248
+  },
+  {
+    "rank": 79,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 51.91,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/22/1e/221e4697-1155-4d8d-87df-9778573a3ad7.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 20,
+    "modelId": "microsoft/Phi-3-medium-128k-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 13960238080
+  },
+  {
+    "rank": 80,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 50.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/17/d1/17d1bf78-2fbe-414d-b555-6d672f57ddf2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 3,
+    "modelId": "TIGER-Lab/MAmmoTH2-8x7B-Plus",
+    "author": {
+      "_id": "6313a90017838d05194fd282",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6313a86154e6e5d9f0f94e04/Noi3Qq3RYz8Jdq6BaFteq.png",
+      "fullname": "TIGER-Lab",
+      "name": "TIGER-Lab",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 575,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 46702792704
+  },
+  {
+    "rank": 81,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 49.93,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/33/3e/333e0d9f-7e39-4da3-96cb-0501d2380c03.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 3,
+    "modelId": "Qwen/Qwen1.5-110B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 111209914368
+  },
+  {
+    "rank": 82,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 49.83,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-3b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 3,
+    "modelId": "ibm-granite/granite-4.1-3b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3402836480
+  },
+  {
+    "rank": 83,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 49.46,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/aa/2b/aa2be737-1a21-4cc9-93f2-83316b7dc0cd.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 12,
+    "modelId": "ai21labs/AI21-Jamba-Large-1.5",
+    "author": {
+      "_id": "65e6310cc7738c6b88970c23",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67baf6e5489cb4dc98a4bff4/9Rkvk1VGhK1woxWvhqDyb.png",
+      "fullname": "AI21",
+      "name": "ai21labs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 669,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 398555145696
+  },
+  {
+    "rank": 84,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 48.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/71/31/7131c1f0-8fce-4050-8117-51d9b5e651ca.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 23,
+    "modelId": "mistralai/Mistral-Small-Instruct-2409",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 22247282688
+  },
+  {
+    "rank": 85,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 47.92,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/92/ff/92ff34d6-a9d7-48af-a31e-a72c2367edff.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 21,
+    "modelId": "zai-org/glm-4-9b",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 9399951392
+  },
+  {
+    "rank": 86,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 47.87,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/03/b7/03b77a5a-1723-4cab-9d50-1a634bf8b06a.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 46,
+    "modelId": "microsoft/Phi-3.5-mini-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3821079552
+  },
+  {
+    "rank": 87,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 46.24,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/c6/8f/c68fc694-d6dd-4b2a-a699-e5f737ae550f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 4,
+    "modelId": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7818448896
+  },
+  {
+    "rank": 88,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 45.95,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/94/9e/949ec028-f03f-4211-8783-c810af6489a4.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 16,
+    "modelId": "01-ai/Yi-1.5-9B-Chat",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8829407232
+  },
+  {
+    "rank": 89,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 45.66,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/05/3a/053a7b11-0d89-4289-bfe4-ed3eca7c4a97.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 117,
+    "modelId": "microsoft/Phi-3-mini-4k-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3821079552
+  },
+  {
+    "rank": 90,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 45.41,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/12/29/1229c8e0-d21f-43e8-a9c7-3ea0d09408d5.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 11,
+    "modelId": "CohereLabs/aya-expanse-32b",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 32296476672
+  },
+  {
+    "rank": 91,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 45.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/76/6f/766fb522-5c40-49f9-bcad-bd5496404129.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 44,
+    "modelId": "google/gemma-2-9b",
+    "author": {
+      "_id": "5e6aca39878b8b2bf9806447",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png",
+      "fullname": "Google",
+      "name": "google",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 68482,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 9241705984
+  },
+  {
+    "rank": 92,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 45,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/0c/64/0c645bb3-1e9c-4400-a704-f99748356114.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "Qwen/Qwen2.5-7B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7615616512
+  },
+  {
+    "rank": 93,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 43.86,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ab/4d/ab4d706d-1629-46ac-8db3-cb6fac6de332.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 107,
+    "modelId": "microsoft/Phi-3-mini-128k-instruct",
+    "author": {
+      "_id": "5e6485f787403103f9f1055e",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "fullname": "Microsoft",
+      "name": "microsoft",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 22281,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3821079552
+  },
+  {
+    "rank": 94,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 43.73,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ed/3a/ed3af7f3-5881-4ddd-bab1-75ecda64c98e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 8,
+    "modelId": "Qwen/Qwen2.5-3B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3085938688
+  },
+  {
+    "rank": 95,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 43.35,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/1f/96/1f963bf0-4985-4d1f-a322-55865369de75.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 5,
+    "modelId": "TIGER-Lab/MAmmoTH2-8B-Plus",
+    "author": {
+      "_id": "6313a90017838d05194fd282",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6313a86154e6e5d9f0f94e04/Noi3Qq3RYz8Jdq6BaFteq.png",
+      "fullname": "TIGER-Lab",
+      "name": "TIGER-Lab",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 575,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8030261248
+  },
+  {
+    "rank": 96,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 43.03,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/9d/42/9d42931c-6ec3-48ac-ae0a-cebb9c1f68aa.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 54,
+    "modelId": "01-ai/Yi-34B",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 34388917248
+  },
+  {
+    "rank": 97,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 42,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b7/6c/b76c036b-b67b-4dd4-9c7f-d1938b83f254.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 11,
+    "modelId": "mistralai/Mathstral-7B-v0.1",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7248023552
+  },
+  {
+    "rank": 98,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 41.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/67/a9/67a990d8-bf28-4d9e-94b8-a472bde1efbd.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 13,
+    "modelId": "XiaomiMiMo/MiMo-7B-Base",
+    "author": {
+      "_id": "680cb4c37f289defb2210940",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680cb7d1233834890a64acee/5w_4aLfF-7MAyaIPOV498.jpeg",
+      "fullname": "Xiaomi MiMo",
+      "name": "XiaomiMiMo",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4752,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7833409536
+  },
+  {
+    "rank": 99,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 41.57,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/0c/0f/0c0f446a-6c2a-47c7-a120-4fafb90f92a3.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 22,
+    "modelId": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 15706484224
+  },
+  {
+    "rank": 100,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 41.03,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/2b/dd/2bddced4-34a8-4a1c-b582-90bfe03346f1.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 71,
+    "modelId": "mistralai/Mixtral-8x7B-v0.1",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 46702792704
+  },
+  {
+    "rank": 101,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 40.98,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/3c/1f/3c1f9257-27aa-4da0-b772-60d62242a72b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 268,
+    "modelId": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8030261248
+  },
+  {
+    "rank": 102,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 40.85,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/1b/16/1b16feea-1def-49ae-b3da-ee3af193a705.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 3,
+    "modelId": "TIGER-Lab/MAmmoTH2-7B-Plus",
+    "author": {
+      "_id": "6313a90017838d05194fd282",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6313a86154e6e5d9f0f94e04/Noi3Qq3RYz8Jdq6BaFteq.png",
+      "fullname": "TIGER-Lab",
+      "name": "TIGER-Lab",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 575,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7241732096
+  },
+  {
+    "rank": 103,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 40.73,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/37/79/3779cfdb-412d-49fa-94d4-5c7ae1af8ac6.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 13,
+    "modelId": "Qwen/Qwen2-7B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7615616512
+  },
+  {
+    "rank": 104,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 39.77,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/be/91/be919504-16fb-4669-8d9b-3bfdfd2e6364.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 25,
+    "modelId": "mistralai/Mistral-Nemo-Base-2407",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 12247782400
+  },
+  {
+    "rank": 105,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 39.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ce/1a/ce1a8a1a-5d16-4403-9e85-bf0f3d72f09f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 13,
+    "modelId": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 2405327360
+  },
+  {
+    "rank": 106,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 38.23,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/bd/05/bd056a61-8ede-45b4-823d-093343bdd880.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 6,
+    "modelId": "01-ai/Yi-1.5-6B-Chat",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 6061035520
+  },
+  {
+    "rank": 107,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 38.02,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/09/ca/09ca61cf-1158-46e6-aeae-1d68f5dfbc34.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 17,
+    "modelId": "Qwen/Qwen1.5-14B-Chat",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 14167290880
+  },
+  {
+    "rank": 108,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 37.93,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b0/f5/b0f59e78-883f-4c57-b728-b983c859f23f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 35,
+    "modelId": "mistralai/Ministral-8B-Instruct-2410",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8019808256
+  },
+  {
+    "rank": 109,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 37.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b3/5f/b35fcd95-c193-4ed0-b50c-bc535af5756f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 63,
+    "modelId": "CohereLabs/c4ai-command-r-v01",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 34980831232
+  },
+  {
+    "rank": 110,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 37.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/6f/ee/6fee4d03-47d0-4c2e-b449-978442fa002c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 1,
+    "modelId": "internlm/internlm2-math-plus-20b",
+    "author": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png",
+      "fullname": "Intern Large Models",
+      "name": "internlm",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1315,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 19861149696
+  },
+  {
+    "rank": 111,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 37,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/67/cc/67cc35fb-ae5a-4632-91da-9346a6b2849e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 18,
+    "modelId": "GSAI-ML/LLaDA-8B-Instruct",
+    "author": {
+      "_id": "67b58a7e7aaae267db2fa046",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/624f909eac5dd186b01ac3f5/6tfvx3XT5Sx6YDGl7KUAU.jpeg",
+      "fullname": "GSAI-ML",
+      "name": "GSAI-ML",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 302,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8015581184
+  },
+  {
+    "rank": 112,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 36.93,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b0/a9/b0a990c3-c1a2-4a69-abed-e1c2c51d8763.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 8,
+    "modelId": "abacusai/Llama-3-Smaug-8B",
+    "author": {
+      "_id": "64ad9957692be9d12f7f775d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63128dd099791aa61d180c72/dJ6uR23m09M-YEafBpmea.png",
+      "fullname": "Abacus.AI, Inc.",
+      "name": "abacusai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 310,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8030261248
+  },
+  {
+    "rank": 113,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 36.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/45/ba/45baf8ce-a6cc-412f-a134-2242a4af4c93.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 201,
+    "modelId": "meta-llama/Llama-3.1-8B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8030261248
+  },
+  {
+    "rank": 114,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 35.36,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ac/75/ac75fe42-62e5-4ea9-a130-1eeacc8e9fb2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 281,
+    "modelId": "meta-llama/Meta-Llama-3-8B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8030261248
+  },
+  {
+    "rank": 115,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 35.3,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/65/7f/657f147a-6450-42fe-a10d-e626f9000d29.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 5,
+    "modelId": "deepseek-ai/deepseek-math-7b-instruct",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false
+  },
+  {
+    "rank": 116,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 34.37,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/1a/c8/1ac85691-ef95-4bf5-8618-6bac456e2792.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 15706484224
+  },
+  {
+    "rank": 117,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 33.74,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/33/5b/335b15a4-a7fd-4ffc-81db-9d5feed90657.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 22,
+    "modelId": "CohereLabs/aya-expanse-8b",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8028033024
+  },
+  {
+    "rank": 118,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 33.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/37/20/37203543-7ca5-4441-be5c-e4cbd12293c2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 2,
+    "modelId": "internlm/internlm2-math-plus-7b",
+    "author": {
+      "_id": "64a2d5fa81252883206f24c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6432683407bad11484a68457/Q3Y0dL79GcsnaBCGRMooZ.png",
+      "fullname": "Intern Large Models",
+      "name": "internlm",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1315,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7737708544
+  },
+  {
+    "rank": 119,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 33.08,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5b/c9/5bc90039-eb1c-4772-aa34-1cfb7c2343b6.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 1,
+    "modelId": "ibm-granite/granite-3.1-8b-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8170835968
+  },
+  {
+    "rank": 120,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 32.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/e1/d5/e1d5921c-130a-44f8-ae14-baed069e565e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 9,
+    "modelId": "Qwen/Qwen2.5-1.5B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1543714304
+  },
+  {
+    "rank": 121,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 31.03,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/d9/f9/d9f9b73a-5b6d-418b-8f26-f89b4d2b6792.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 3,
+    "modelId": "ibm-granite/granite-3.0-8b-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8170835968
+  },
+  {
+    "rank": 122,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 30.84,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/9d/8d/9d8dc94b-067c-478d-aa99-874b71721fc3.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 233,
+    "modelId": "mistralai/Mistral-7B-Instruct-v0.2",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7241732096
+  },
+  {
+    "rank": 123,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 30.43,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/93/21/9321cec5-309d-4328-aa2c-709af17cff9c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 11,
+    "modelId": "mistral-community/Mistral-7B-v0.2",
+    "author": {
+      "_id": "661650d1e63e46517c16c360",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6141a88b3a0ec78603c9e784/HAdAzcs1CDB9OxgxT2W9K.png",
+      "fullname": "Unofficial Mistral Community [deprecated]",
+      "name": "mistral-community",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 340,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7241732096
+  },
+  {
+    "rank": 124,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 29.06,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/db/e1/dbe12346-25db-4fac-9421-5153fc4c661c.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 15,
+    "modelId": "Qwen/Qwen1.5-7B-Chat",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 7721324544
+  },
+  {
+    "rank": 125,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 28.84,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/28/1d/281df2d2-60b5-4053-b30e-bba4976c3efd.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 8,
+    "modelId": "01-ai/Yi-6B-Chat",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 6061035520
+  },
+  {
+    "rank": 126,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 26.51,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/8b/02/8b02ff6f-b3ae-4230-8edd-50c3ffa34592.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 28,
+    "modelId": "01-ai/Yi-6B",
+    "author": {
+      "_id": "64f7c267fe57e7455a878068",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6536187279f1de44b5e02d0f/-T8Xw0mX67_R73b7Re1y-.png",
+      "fullname": "01-ai",
+      "name": "01-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 873,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 6061035520
+  },
+  {
+    "rank": 127,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 23.89,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/d4/c0/d4c06d3d-8a53-44e5-9db6-ebffc99390d2.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 2,
+    "modelId": "ibm-granite/granite-3.1-2b-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 2533525504
+  },
+  {
+    "rank": 128,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 23.45,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/f0/87/f087fc33-d4b9-4939-b3cf-2d3fb9094177.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 5,
+    "modelId": "EleutherAI/llemma_7b",
+    "author": {
+      "_id": "60347fbbe8149a962412a689",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1614054059123-603481bb60e3dd96631c9095.png",
+      "fullname": "EleutherAI",
+      "name": "EleutherAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 1446,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false
+  },
+  {
+    "rank": 129,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 22.62,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/18/ea/18ea6501-7d93-4ec4-bd82-86991bb5cc68.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 12,
+    "modelId": "Qwen/Qwen2-1.5B-Instruct",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1543714304
+  },
+  {
+    "rank": 130,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 22.56,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ff/fc/fffc978a-e6ae-41f2-bded-06bb776ee8b9.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "Qwen/Qwen2-1.5B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1543714304
+  },
+  {
+    "rank": 131,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 22.17,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/91/89/9189a395-7ef2-453e-84e0-259870efc2f7.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 84,
+    "modelId": "meta-llama/Llama-3.2-3B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3212749824
+  },
+  {
+    "rank": 132,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 21.72,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/06/7f/067fe2c1-7ba3-4f79-8344-e55e999ae537.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 2,
+    "modelId": "ibm-granite/granite-3.0-2b-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 2533525504
+  },
+  {
+    "rank": 133,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 20.39,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/a9/31/a931868f-9ae1-4cd5-a2a7-8ea402101bbe.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 1,
+    "modelId": "ibm-granite/granite-3.1-3b-a800m-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3298788864
+  },
+  {
+    "rank": 134,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 18.31,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/33/c9/33c9180c-621e-40a2-bb6f-02b90ecff1fd.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "HuggingFaceTB/SmolLM2-1.7B",
+    "author": {
+      "_id": "65116f902408819fa5329c6f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/651e96991b97c9f33d26bde6/e4VK7uW5sTeCYupD0s_ob.png",
+      "fullname": "Hugging Face Smol Models Research",
+      "name": "HuggingFaceTB",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4095,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1711376384
+  },
+  {
+    "rank": 135,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 14.97,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/85/72/8572a257-22bc-45c5-8891-d698ba6fc206.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "Qwen/Qwen2-0.5B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 494032768
+  },
+  {
+    "rank": 136,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 14.92,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5b/03/5b03aafd-e973-4ea4-850c-2ab97c1abb27.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 15,
+    "modelId": "Qwen/Qwen2.5-0.5B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 494032768
+  },
+  {
+    "rank": 137,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 12.34,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/4a/f2/4af2fd82-845a-4087-83eb-ae9b4b7561d1.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 1,
+    "modelId": "ibm-granite/granite-3.1-1b-a400m-base",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1334625280
+  },
+  {
+    "rank": 138,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 11.95,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/d5/a3/d5a3c88a-3fee-40b3-a8c7-8c4cc65baf5f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 361,
+    "modelId": "meta-llama/Llama-3.2-1B",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1235814400
+  },
+  {
+    "rank": 139,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 11.38,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/23/ae/23aee40b-5bea-46cf-a87b-8263e12e2d1f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "HuggingFaceTB/SmolLM2-360M",
+    "author": {
+      "_id": "65116f902408819fa5329c6f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/651e96991b97c9f33d26bde6/e4VK7uW5sTeCYupD0s_ob.png",
+      "fullname": "Hugging Face Smol Models Research",
+      "name": "HuggingFaceTB",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4095,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 361821120
+  },
+  {
+    "rank": 140,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 10.85,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/ac/90/ac90804d-cb99-41cc-b3e7-65ed31484008.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "HuggingFaceTB/SmolLM2-135M",
+    "author": {
+      "_id": "65116f902408819fa5329c6f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/651e96991b97c9f33d26bde6/e4VK7uW5sTeCYupD0s_ob.png",
+      "fullname": "Hugging Face Smol Models Research",
+      "name": "HuggingFaceTB",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4095,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 134515008
+  },
+  {
+    "rank": 141,
+    "filename": ".eval_results/mmlu_pro.yaml",
+    "value": 0.6494348404255319,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/9c/45/9c455b8c-1153-4c24-9de0-1d506297d805.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 35,
+    "modelId": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 73410777344
+  }
+]

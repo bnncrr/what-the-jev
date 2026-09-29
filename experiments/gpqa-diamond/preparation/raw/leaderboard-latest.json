@@ -1,0 +1,3558 @@
+[
+  {
+    "rank": 1,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 94.44,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-180B-RSI",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-180B-RSI",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond, all 198 items; majority vote over up to 16 samples (temperature=1.0, top_p=0.95, top_k=20); thinking budget 131,072 tokens; bf16",
+    "lower_is_better": false,
+    "num_parameters": 179999981459
+  },
+  {
+    "rank": 2,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 93.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "moonshotai/Kimi-K3",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 2779931837184
+  },
+  {
+    "rank": 3,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 93.43,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-397B-ZTC",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-397B-ZTC",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond, all 198 items; greedy decoding (temperature=0), single sample (no voting / no test-time engine); weights released in FP8 (W8A8, compressed-tensors)",
+    "lower_is_better": false,
+    "num_parameters": 403586672624
+  },
+  {
+    "rank": 4,
+    "filename": ".eval_results/ornith-1.5-397b.yaml",
+    "value": 92.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-397B",
+      "name": "Ornith-1.5-397B model card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "ornith-ai/Ornith-1.5-397B",
+    "author": {
+      "_id": "68898157cad3d316633a440d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68661bce022667cf9c7534fb/dwzGCqj9B7NGaJRO-NjjP.png",
+      "fullname": "Ornith",
+      "name": "ornith-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 403397928944
+  },
+  {
+    "rank": 5,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 92.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 6,
+    "modelId": "Qwen/Qwen3.8-2.4T-A95B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 2446182725504
+  },
+  {
+    "rank": 6,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 92.3,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/tencent/Hy4-preview",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "tencent/Hy4-preview",
+    "author": {
+      "_id": "66543b6e420092799d2f625c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png",
+      "fullname": "Tencent",
+      "name": "tencent",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 12406,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 779960992733
+  },
+  {
+    "rank": 7,
+    "filename": ".eval_results/Qwen3.8-Flash-Next.yaml",
+    "value": 91.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "name": "Qwen3.8-Flash-Next model card",
+      "isExternal": false
+    },
+    "pullRequest": 12,
+    "modelId": "Qwen/Qwen3.8-Flash-Next",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 179999981459
+  },
+  {
+    "rank": 8,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 91.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "zai-org/GLM-5.2",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 753329940480
+  },
+  {
+    "rank": 9,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 90.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-398B-JGOS",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-398B-JGOS",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "greedy decoding (temperature=0), single-sample (no voting / no test-time engine), max_tokens=16384, options shuffled seed=42; hardware: NVIDIA B200 x6 (TP2 x PP3), vLLM bfloat16",
+    "lower_is_better": false,
+    "num_parameters": 403397928944
+  },
+  {
+    "rank": 10,
+    "filename": ".eval_results/DeepSeek-V4.1-Flash.yaml",
+    "value": 90.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "name": "DeepSeek-V4.1-Flash model card",
+      "isExternal": false
+    },
+    "pullRequest": 29,
+    "modelId": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 763205315794
+  },
+  {
+    "rank": 11,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 90.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "moonshotai/Kimi-K2.6",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1026879376368
+  },
+  {
+    "rank": 12,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 90.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/tencent/Hy3",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 8,
+    "modelId": "tencent/Hy3",
+    "author": {
+      "_id": "66543b6e420092799d2f625c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png",
+      "fullname": "Tencent",
+      "name": "tencent",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 12406,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 298786155776
+  },
+  {
+    "rank": 13,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 90.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 110,
+    "modelId": "deepseek-ai/DeepSeek-V4-Pro",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1598839674782
+  },
+  {
+    "rank": 14,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 89.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/thinkingmachines/Inkling-Small",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "thinkingmachines/Inkling-Small",
+    "author": {
+      "_id": "680a7a652b58ee7c02483aa3",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680a76de1b8d08640089fab0/r60-JyW_pv4llgjEyDYj9.png",
+      "fullname": "Thinking Machines Lab",
+      "name": "thinkingmachines",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 1843,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 265956439090
+  },
+  {
+    "rank": 15,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 89.39,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-28B-REASON",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-28B-REASON",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "Darwin-DELPHI test-time engine, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 26895998464
+  },
+  {
+    "rank": 16,
+    "filename": ".eval_results/Qwen3.8-27B.yaml",
+    "value": 89.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "name": "Qwen3.8-27B model card",
+      "isExternal": false
+    },
+    "pullRequest": 22,
+    "modelId": "Qwen/Qwen3.8-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 17,
+    "filename": ".eval_results/ornith-1.5-35b-a3b.yaml",
+    "value": 89.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
+      "name": "Ornith-1.5-35B-A3B model card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "ornith-ai/Ornith-1.5-35B-A3B",
+    "author": {
+      "_id": "68898157cad3d316633a440d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68661bce022667cf9c7534fb/dwzGCqj9B7NGaJRO-NjjP.png",
+      "fullname": "Ornith",
+      "name": "ornith-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 35951822704
+  },
+  {
+    "rank": 18,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 88.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 9,
+    "modelId": "Qwen/Qwen3.5-397B-A17B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 403397928944
+  },
+  {
+    "rank": 19,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 88.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-36B-Opus",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-36B-Opus",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "Standard inference, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 34660610688
+  },
+  {
+    "rank": 20,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 88.38,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-60B-DUO",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-60B-DUO",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "DELPHI cascade system, Pass@1",
+    "lower_is_better": false
+  },
+  {
+    "rank": 21,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 88.27,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "inclusionAI/Ring-2.6-1T",
+    "author": {
+      "_id": "67aea5c8f086ab0f70ed97c9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg",
+      "fullname": "inclusionAI",
+      "name": "inclusionAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3110,
+      "isUserFollowing": false
+    },
+    "notes": "xhigh reasoning effort, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 1025414425344
+  },
+  {
+    "rank": 22,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 88.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 11,
+    "modelId": "deepseek-ai/DeepSeek-V4-Flash",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 290944616402
+  },
+  {
+    "rank": 23,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 87.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 6,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "notes": "No tools",
+    "lower_is_better": false,
+    "num_parameters": 302826566168
+  },
+  {
+    "rank": 24,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 87.8787878788,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/97/fa/97faabc6-a7ca-4cad-8d29-307103287d91.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 3,
+    "modelId": "zai-org/GLM-4.7-FP8",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 358458391872
+  },
+  {
+    "rank": 25,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 87.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 2,
+    "modelId": "Qwen/Qwen3.6-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 26,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 87.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "5f1158120c833276f61f1a84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+        "fullname": "Niels Rogge",
+        "name": "nielsr",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 1319,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 50,
+    "modelId": "moonshotai/Kimi-K2.5",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1026879376368
+  },
+  {
+    "rank": 27,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 87.3737373737,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5c/4b/5c4b9bd9-14db-4c11-bf99-9661461459f6.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 126,
+    "modelId": "moonshotai/Kimi-K2.5",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 1026879376368
+  },
+  {
+    "rank": 28,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 87.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/tencent/Hy3-preview",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 2,
+    "modelId": "tencent/Hy3-preview",
+    "author": {
+      "_id": "66543b6e420092799d2f625c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png",
+      "fullname": "Tencent",
+      "name": "tencent",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 12406,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 298786155776
+  },
+  {
+    "rank": 29,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 87.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "thinkingmachines/Inkling",
+    "author": {
+      "_id": "680a7a652b58ee7c02483aa3",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680a76de1b8d08640089fab0/r60-JyW_pv4llgjEyDYj9.png",
+      "fullname": "Thinking Machines Lab",
+      "name": "thinkingmachines",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 1843,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 952377623626
+  },
+  {
+    "rank": 30,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 87,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "notes": "No tools",
+    "lower_is_better": false,
+    "num_parameters": 560524578816
+  },
+  {
+    "rank": 31,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 86.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-27B-Opus",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-27B-Opus",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "Standard inference, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 32,
+    "filename": ".eval_results/gpqa_1.yaml",
+    "value": 86.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 8,
+    "modelId": "Qwen/Qwen3.5-122B-A10B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 125086497008
+  },
+  {
+    "rank": 33,
+    "filename": ".eval_results/ornith-1.5-9b.yaml",
+    "value": 86.4,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "name": "Ornith-1.5-9B model card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "ornith-ai/Ornith-1.5-9B",
+    "author": {
+      "_id": "68898157cad3d316633a440d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68661bce022667cf9c7534fb/dwzGCqj9B7NGaJRO-NjjP.png",
+      "fullname": "Ornith",
+      "name": "ornith-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3623,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 9653104368
+  },
+  {
+    "rank": 34,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 86.36,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Ourbox-35B-JGOS",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Ourbox-35B-JGOS",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "majority-of-8+ (maj@8 with 16-vote tiebreaker)",
+    "lower_is_better": false,
+    "num_parameters": 34660610688
+  },
+  {
+    "rank": 35,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 86.3,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "upstage/Solar-Open2-250B",
+    "author": {
+      "_id": "62940d125d1c94a62e838db2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649144feeb13c70f7671c603/bUxWC5jKltd-MyrrCNCv5.png",
+      "fullname": "upstage",
+      "name": "upstage",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1207,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 250287810304
+  },
+  {
+    "rank": 36,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 86.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "zai-org/GLM-5.1",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 753864139008
+  },
+  {
+    "rank": 37,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 86.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "name": "Model Card",
+      "isExternal": true
+    },
+    "modelId": "INCModel3/GLM-5.1-MXFP4-Mixed-CT-AutoRound",
+    "author": {
+      "_id": "69a144f88db2173864e63550",
+      "avatarUrl": "https://www.gravatar.com/avatar/b95e8aeaa2dcab599634e2a79570d4aa?d=retro&size=100",
+      "fullname": "INC Optimized Models 3",
+      "name": "INCModel3",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 7,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 753864139008
+  },
+  {
+    "rank": 38,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 86,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-5",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "zai-org/GLM-5",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 753864139008
+  },
+  {
+    "rank": 39,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 86,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "Qwen/Qwen3.6-35B-A3B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 35951822704
+  },
+  {
+    "rank": 40,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 85.9,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-31B-Opus",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-31B-Opus",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "Standard inference, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 31273088876
+  },
+  {
+    "rank": 41,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 85.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "zai-org/GLM-4.7",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 358337791296
+  },
+  {
+    "rank": 42,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 85.6,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/skt/A.X-K2/blob/fb412dcd22e9c5ac43b2967d6c5e8a7d0e667b0f/README.md#L134-L152",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "skt/A.X-K2",
+    "author": {
+      "_id": "608f5b129c5a8f8ddd85c41d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311a3f4d5a165db5d1d6862/XUPnKE9YqJcgORZoVOXMR.jpeg",
+      "fullname": "SK Telecom",
+      "name": "skt",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 551,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 691690231040
+  },
+  {
+    "rank": 43,
+    "filename": ".eval_results/gpqa_1.yaml",
+    "value": 85.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 11,
+    "modelId": "Qwen/Qwen3.5-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 44,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 85.3535353535,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/8a/87/8a87d622-4abb-48a7-8ac3-594e31a85525.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 10,
+    "modelId": "zai-org/GLM-5-FP8",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 753910024032
+  },
+  {
+    "rank": 45,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 85.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "MiniMaxAI/MiniMax-M2.5",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 228703644928
+  },
+  {
+    "rank": 46,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 85,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-4B-David",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-4B-David",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "4B class Gen-2 evolution, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 7996156490
+  },
+  {
+    "rank": 47,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 84.8484848485,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/58/60/5860f5bd-926e-4ece-bc87-a1af551a6280.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 24,
+    "modelId": "Qwen/Qwen3.5-122B-A10B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 125086497008
+  },
+  {
+    "rank": 48,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 84.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 52,
+    "modelId": "moonshotai/Kimi-K2-Thinking",
+    "author": {
+      "_id": "6425a114812813f8f4a9b02c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c1e77c3983aa9490f8121/X1yT2rsaIbR9cdYGEVu0X.jpeg",
+      "fullname": "Moonshot AI",
+      "name": "moonshotai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 18981,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1026408240256
+  },
+  {
+    "rank": 49,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 84.34,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/FINAL-Bench/Darwin-9B-NEG",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "FINAL-Bench/Darwin-9B-NEG",
+    "author": {
+      "_id": "699976ab4a856643b7429675",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6905bc786cb49b1f11d32728/VZmuKH-liifeL2GCXlwka.jpeg",
+      "fullname": "FINAL_Bench",
+      "name": "FINAL-Bench",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 326,
+      "isUserFollowing": false
+    },
+    "notes": "9B class, standard inference, Pass@1",
+    "lower_is_better": false,
+    "num_parameters": 9653104368
+  },
+  {
+    "rank": 50,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 84.34,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/JGOS-Model/JGOS-31B-Citizen",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "modelId": "JGOS-Model/JGOS-31B-Citizen",
+    "author": {
+      "_id": "6a1f813223874e4c24244f50",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66e54edddba1e4fee4500a5a/mHGK5-lBrEy1xKZmRqtfc.png",
+      "fullname": "JGOS",
+      "name": "JGOS-Model",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 20,
+      "isUserFollowing": false
+    },
+    "notes": "maj@8 + DELPHI + near-miss maj@32-64 weighted vote, Pass@1 (167/198)",
+    "lower_is_better": false,
+    "num_parameters": 31273086512
+  },
+  {
+    "rank": 51,
+    "filename": ".eval_results/openPangu-2.0-Flash.yaml",
+    "value": 83.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/openpangu/openPangu-2.0-Flash",
+      "name": "openPangu-2.0-Flash model card",
+      "isExternal": false
+    },
+    "pullRequest": 4,
+    "modelId": "openpangu/openPangu-2.0-Flash",
+    "author": {
+      "_id": "693f509fe517f5ef280c41cf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66446e5f8c16ba43d3952eb8/_d3vpdB-0d6umBvgKND6m.png",
+      "fullname": "openPangu",
+      "name": "openpangu",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 126,
+      "isUserFollowing": false
+    },
+    "notes": "Avg@4, Thinking",
+    "lower_is_better": false,
+    "num_parameters": 100136311993
+  },
+  {
+    "rank": 52,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 83.5,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2602.10604",
+      "name": "Step 3.5 Flash Paper",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "stepfun-ai/Step-3.5-Flash",
+    "author": {
+      "_id": "66e43eae9d477f566f937935",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644f7e6233ac8f46fa0b9e26/CmF2ocXhkr2UtHXgmwq7-.png",
+      "fullname": "StepFun",
+      "name": "stepfun-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 3168,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 199384301376
+  },
+  {
+    "rank": 53,
+    "filename": ".eval_results/Muse-Glimmer-30B.yaml",
+    "value": 83.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "name": "Muse Glimmer-30B model card",
+      "isExternal": false
+    },
+    "pullRequest": 6,
+    "modelId": "meta-models/Muse-Glimmer-30B",
+    "author": {
+      "_id": "6a4fa9d6b2a34f879a85b1ce",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c115d1f661ace7c4022432/EbzfQisFJBEcKWDWLyV5O.png",
+      "fullname": "Meta Inc.",
+      "name": "meta-models",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 2226,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 29776626688
+  },
+  {
+    "rank": 54,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 83.3333333333,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/36/22/3622b785-41c0-4a96-b867-5bde46851587.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 42,
+    "modelId": "XiaomiMiMo/MiMo-V2-Flash",
+    "author": {
+      "_id": "680cb4c37f289defb2210940",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680cb7d1233834890a64acee/5w_4aLfF-7MAyaIPOV498.jpeg",
+      "fullname": "Xiaomi MiMo",
+      "name": "XiaomiMiMo",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4752,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 309785318400
+  },
+  {
+    "rank": 55,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 83.3333333333,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/52/23/522348c0-d242-4517-b97c-4e55c4261882.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 6,
+    "modelId": "zai-org/GLM-5.1-FP8",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 753910024032
+  },
+  {
+    "rank": 56,
+    "filename": ".eval_results/gpqa_with_tools.yaml",
+    "value": 82.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "notes": "With tools",
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 57,
+    "filename": ".eval_results/gpqa_with_tools.yaml",
+    "value": 82.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "RedHatAI/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "6586e2598dd42194879b59aa",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60466e4b4f40b01b66151416/cdABRow21BL0sl1vSVTPk.png",
+      "fullname": "Red Hat AI",
+      "name": "RedHatAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3182,
+      "isUserFollowing": false
+    },
+    "notes": "With tools",
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 58,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 81.8181818182,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5b/a4/5ba4cf19-18b3-4d08-bad0-ef29422cb18a.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 47,
+    "modelId": "Qwen/Qwen3.5-27B",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 27781427952
+  },
+  {
+    "rank": 59,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 81.3131313131,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/7e/18/7e18ad63-4a0a-4d9d-a4ec-40b683b42981.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 4,
+    "modelId": "zai-org/GLM-4.6-FP8",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 358458543424
+  },
+  {
+    "rank": 60,
+    "filename": ".eval_results/gpqa_diamond_high_with_tools.yaml",
+    "value": 80.9,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 179,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: high, With tools",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 61,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 80.8080808081,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/5d/3e/5d3e8832-c770-4796-957b-dfaefbd3bb2a.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 221,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 62,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 80.8080808081,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/08/7b/087b0dc6-3c87-4f40-8458-16f19de92200.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 37,
+    "modelId": "MiniMaxAI/MiniMax-M2.1",
+    "author": {
+      "_id": "6778fc29920093dbc0c24917",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg",
+      "fullname": "MiniMax",
+      "name": "MiniMaxAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 10956,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 228689764864
+  },
+  {
+    "rank": 63,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 80.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 4,
+    "modelId": "meituan-longcat/LongCat-Flash-Thinking-2601",
+    "author": {
+      "_id": "68b28d79a176a9beb30d2049",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png",
+      "fullname": "LongCat",
+      "name": "meituan-longcat",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4741,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 561862880256
+  },
+  {
+    "rank": 64,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 80.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 3,
+    "modelId": "LGAI-EXAONE/EXAONE-4.5-33B",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 34350097664
+  },
+  {
+    "rank": 65,
+    "filename": ".eval_results/gpqa_diamond_high.yaml",
+    "value": 80.1,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 178,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: high",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 66,
+    "filename": ".eval_results/openPangu-2.0-Flash.yaml",
+    "value": 79.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/openpangu/openPangu-2.0-Flash",
+      "name": "openPangu-2.0-Flash model card",
+      "isExternal": false
+    },
+    "pullRequest": 4,
+    "modelId": "openpangu/openPangu-2.0-Flash",
+    "author": {
+      "_id": "693f509fe517f5ef280c41cf",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66446e5f8c16ba43d3952eb8/_d3vpdB-0d6umBvgKND6m.png",
+      "fullname": "openPangu",
+      "name": "openpangu",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 126,
+      "isUserFollowing": false
+    },
+    "notes": "Avg@4, Non-Thinking",
+    "lower_is_better": false,
+    "num_parameters": 100136311993
+  },
+  {
+    "rank": 67,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 79.23,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 68,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 79.23,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "RedHatAI/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "author": {
+      "_id": "6586e2598dd42194879b59aa",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60466e4b4f40b01b66151416/cdABRow21BL0sl1vSVTPk.png",
+      "fullname": "Red Hat AI",
+      "name": "RedHatAI",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3182,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 69,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 79.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 12,
+    "modelId": "LGAI-EXAONE/K-EXAONE-236B-A23B",
+    "author": {
+      "_id": "66a89bc1d96a5adbccbe85d4",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a899a72f11aaf66001a8dc/UfdrP3GMo9pNT62BaMnhw.png",
+      "fullname": "LG AI Research",
+      "name": "LGAI-EXAONE",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1868,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 237099669632
+  },
+  {
+    "rank": 70,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 78.7878787879,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/a1/dd/a1dd2ea2-f092-423e-bc53-04c2fba5948d.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 117,
+    "modelId": "deepseek-ai/DeepSeek-R1-0528",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 684531386000
+  },
+  {
+    "rank": 71,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 77.2727272727,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/bd/1f/bd1fe04f-7d58-4045-be60-7150500d537f.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 123611012096
+  },
+  {
+    "rank": 72,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 76.1,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "6141a88b3a0ec78603c9e784",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6141a88b3a0ec78603c9e784/DJsxSmWV39M33JFheLobC.jpeg",
+        "fullname": "merve",
+        "name": "merve",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 11002,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 2,
+    "modelId": "nvidia/Nemotron-Cascade-2-30B-A3B",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 31577937344
+  },
+  {
+    "rank": 73,
+    "filename": ".eval_results/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.yaml",
+    "value": 75.57,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4 model card",
+      "isExternal": false
+    },
+    "modelId": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 17820210764
+  },
+  {
+    "rank": 74,
+    "filename": ".eval_results/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16.yaml",
+    "value": 75.44,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16 model card",
+      "isExternal": false
+    },
+    "pullRequest": 4,
+    "modelId": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "author": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 69697,
+      "isUserFollowing": false
+    },
+    "notes": "No tools.",
+    "lower_is_better": false,
+    "num_parameters": 31577937344
+  },
+  {
+    "rank": 75,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 75.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "modelId": "zai-org/GLM-4.7-Flash",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 31221488576
+  },
+  {
+    "rank": 76,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 74.43,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 6,
+    "modelId": "jdopensource/JoyAI-LLM-Flash",
+    "author": {
+      "_id": "68cb7c874f4a1865540c455c",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68c0e2ab44ea28a974e3074b/g-4gTubd16qUtwmGZ0n4h.png",
+      "fullname": "JD.com Open Source",
+      "name": "jdopensource",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 413,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 49286094592
+  },
+  {
+    "rank": 77,
+    "filename": ".eval_results/gpqa_diamond_high_with_tools.yaml",
+    "value": 74.2,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 234,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: high, With tools",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 78,
+    "filename": ".eval_results/A.X-K1.yaml",
+    "value": 74,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "name": "A.X K1 model card",
+      "isExternal": false
+    },
+    "modelId": "skt/A.X-K1",
+    "author": {
+      "_id": "608f5b129c5a8f8ddd85c41d",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311a3f4d5a165db5d1d6862/XUPnKE9YqJcgORZoVOXMR.jpeg",
+      "fullname": "SK Telecom",
+      "name": "skt",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 551,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA-Diamond score reported in Thinking Mode.",
+    "lower_is_better": false,
+    "num_parameters": 518983059456
+  },
+  {
+    "rank": 79,
+    "filename": ".eval_results/gpqa_diamond_medium_with_tools.yaml",
+    "value": 73.5,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 183,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: medium, With tools",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 80,
+    "filename": ".eval_results/gpqa_diamond_medium.yaml",
+    "value": 73.1,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 182,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: medium",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 81,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 72.2222222222,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/4b/02/4b02c12c-3f7b-45c8-b746-c590860a7a36.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 14,
+    "modelId": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 30532122624
+  },
+  {
+    "rank": 82,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 71.7171717172,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/9c/77/9c7740fd-9cad-445c-9681-eb576e2a110e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 16,
+    "modelId": "zai-org/GLM-4.5-Air",
+    "author": {
+      "_id": "62ad27f19096e7f9ecb1853a",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+      "fullname": "Z.ai",
+      "name": "zai-org",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 21502,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 110468824832
+  },
+  {
+    "rank": 83,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 71.5,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 241,
+    "modelId": "deepseek-ai/DeepSeek-R1",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 684489845504
+  },
+  {
+    "rank": 84,
+    "filename": ".eval_results/gpqa_diamond_high.yaml",
+    "value": 71.5,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 233,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: high",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 85,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 71.2,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "5f1158120c833276f61f1a84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+        "fullname": "Niels Rogge",
+        "name": "nielsr",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 1319,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 2,
+    "modelId": "mistralai/Mistral-Small-4-119B-2603",
+    "author": {
+      "_id": "64edf4004f42c35eea1b1632",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+      "fullname": "Mistral AI_",
+      "name": "mistralai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 19623,
+      "isUserFollowing": false
+    },
+    "notes": "reasoning: high",
+    "lower_is_better": false,
+    "num_parameters": 119401317952
+  },
+  {
+    "rank": 86,
+    "filename": ".eval_results/gpqa_diamond_low_with_tools.yaml",
+    "value": 68.1,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 181,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: low, With tools",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 87,
+    "filename": ".eval_results/gpqa_diamond_low.yaml",
+    "value": 67.1,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 180,
+    "modelId": "openai/gpt-oss-120b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: low",
+    "lower_is_better": false,
+    "num_parameters": 116829156672
+  },
+  {
+    "rank": 88,
+    "filename": ".eval_results/gpqa_diamond_medium_with_tools.yaml",
+    "value": 67.1,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 238,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: medium, With tools",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 89,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 66.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "name": "Model Card",
+      "isExternal": false
+    },
+    "pullRequest": 1,
+    "modelId": "XiaomiMiMo/MiMo-V2.5-Pro",
+    "author": {
+      "_id": "680cb4c37f289defb2210940",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/680cb7d1233834890a64acee/5w_4aLfF-7MAyaIPOV498.jpeg",
+      "fullname": "Xiaomi MiMo",
+      "name": "XiaomiMiMo",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 4752,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 1023182841600
+  },
+  {
+    "rank": 90,
+    "filename": ".eval_results/gpqa_diamond_medium.yaml",
+    "value": 66,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 237,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: medium",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 91,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 65.8,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 13,
+    "modelId": "Qwen/Qwen3-4B-Thinking-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 4022468096
+  },
+  {
+    "rank": 92,
+    "filename": ".eval_results/gpqa.yaml",
+    "value": 62,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "62d648291fa3e4e7ae3fa6e8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+        "fullname": "ben burtenshaw",
+        "name": "burtenshaw",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 4964,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 22,
+    "modelId": "Qwen/Qwen3-4B-Instruct-2507",
+    "author": {
+      "_id": "64c8b5837fe12ecd0a7e92eb",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+      "fullname": "Qwen",
+      "name": "Qwen",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 107441,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 4022468096
+  },
+  {
+    "rank": 93,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 58.5858585859,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/6f/c3/6fc3630c-36f0-4ba9-9f34-3c9f73dec76a.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 256,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 94,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 58.2070707071,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/0a/db/0adbcd9f-38e6-414a-88b1-7bd928d4c72e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 125,
+    "modelId": "deepseek-ai/DeepSeek-V3",
+    "author": {
+      "_id": "652faff917096ceb6bf53f3f",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+      "fullname": "DeepSeek",
+      "name": "deepseek-ai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 147939,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 684531386000
+  },
+  {
+    "rank": 95,
+    "filename": ".eval_results/gpqa_diamond_low_with_tools.yaml",
+    "value": 58,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 236,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: low, With tools",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 96,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 57.6,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Thinking",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "post-training eval (SFT + RLVR), with thinking, no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 97,
+    "filename": ".eval_results/gpqa_diamond_low.yaml",
+    "value": 56.8,
+    "verified": false,
+    "source": {
+      "url": "https://arxiv.org/abs/2508.10925",
+      "name": "GPT-OSS Model Card",
+      "isExternal": true,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 235,
+    "modelId": "openai/gpt-oss-20b",
+    "author": {
+      "_id": "609b82e52e11c13c4ac7c3f1",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68783facef79a05727260de3/UPX5RQxiPGA-ZbBmArIKq.png",
+      "fullname": "OpenAI",
+      "name": "openai",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 42091,
+      "isUserFollowing": false
+    },
+    "notes": "Reasoning: low",
+    "lower_is_better": false,
+    "num_parameters": 20914757184
+  },
+  {
+    "rank": 98,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 50.5050505051,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/b2/77/b27740dc-a017-4738-8dd0-c18973b61d9e.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 18,
+    "modelId": "CohereLabs/c4ai-command-a-03-2025",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 111057580032
+  },
+  {
+    "rank": 99,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 46.0858585859,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/94/0f/940ff5c0-b932-4c37-9eb5-27cbd4997484.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 34,
+    "modelId": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 88593355323
+  },
+  {
+    "rank": 100,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 45.76,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 2,
+    "modelId": "ibm-granite/granite-4.1-30b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 28865728512
+  },
+  {
+    "rank": 101,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 41.96,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 4,
+    "modelId": "ibm-granite/granite-4.1-8b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 8791592960
+  },
+  {
+    "rank": 102,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 40.9,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "post-training eval (SFT + RLVR), no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 103,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 39.9,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Thinking-SFT",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "post-training eval (SFT only), with thinking, no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 104,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 38.9,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Instruct-SFT",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "post-training eval (SFT only), no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 105,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 34.3434343434,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/af/03/af03cc06-a493-48b7-a049-61d9b690c8f3.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 11,
+    "modelId": "CohereLabs/c4ai-command-r-plus-08-2024",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 103810674688
+  },
+  {
+    "rank": 106,
+    "filename": ".eval_results/gpqa_diamond.yaml",
+    "value": 31.7,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-3b",
+      "name": "Model Card",
+      "isExternal": false,
+      "author": {
+        "_id": "63e0eea7af523c37e5a77966",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678663263366-63e0eea7af523c37e5a77966.jpeg",
+        "fullname": "Nathan Habib",
+        "name": "SaylorTwift",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 482,
+        "isUserFollowing": false
+      }
+    },
+    "pullRequest": 2,
+    "modelId": "ibm-granite/granite-4.1-3b",
+    "author": {
+      "_id": "6624c149a8d1362ebc6bc6da",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639bcaa2445b133a4e942436/CEW-OjXkRkDNmTxSu8Egh.png",
+      "fullname": "IBM Granite",
+      "name": "ibm-granite",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 5532,
+      "isUserFollowing": false
+    },
+    "lower_is_better": false,
+    "num_parameters": 3402836480
+  },
+  {
+    "rank": 107,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 31.31,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Base-Pretrain",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "pre-training eval, no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 108,
+    "filename": ".eval_results/mellum2.yaml",
+    "value": 31.31,
+    "verified": false,
+    "modelId": "JetBrains/Mellum2-12B-A2.5B-Base",
+    "author": {
+      "_id": "6460c8ca1db65f878513d6ec",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6645d54b780d46f274dd4145/8RHS3MzGGBFWtH1-bynJ0.png",
+      "fullname": "JetBrains",
+      "name": "JetBrains",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 1338,
+      "isUserFollowing": false
+    },
+    "notes": "pre-training eval (pre-YaRN), no-tools",
+    "lower_is_better": false,
+    "num_parameters": 12149923072
+  },
+  {
+    "rank": 109,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 26.7676767677,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/9a/17/9a17fcf2-ee22-4a4f-b992-0d07290a56fc.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 12,
+    "modelId": "CohereLabs/c4ai-command-r-08-2024",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 32296476672
+  },
+  {
+    "rank": 110,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 26.7676767677,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/69/1d/691d4ef0-94b0-47e2-a7c9-b85f1bdc625b.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 18,
+    "modelId": "CohereLabs/c4ai-command-r7b-12-2024",
+    "author": {
+      "_id": "640ca1c93623f6a56ddab373",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+      "fullname": "Cohere Labs",
+      "name": "CohereLabs",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 3761,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 8028033024
+  },
+  {
+    "rank": 111,
+    "filename": ".eval_results/gpqa-diamond.yaml",
+    "value": 18.6868686869,
+    "verified": false,
+    "source": {
+      "url": "https://huggingface.co/datasets/evaleval/EEE_datastore/blob/192329fb7d6b15b7b0936a1a58ae862aa7e8ba24/flat/objects/aa/ad/aaad0db3-7c5b-4834-a1a2-d96624bdd003.json",
+      "name": "EvalEval",
+      "isExternal": true
+    },
+    "pullRequest": 179,
+    "modelId": "meta-llama/Llama-3.2-1B-Instruct",
+    "author": {
+      "_id": "64aa62fec05da19ca8539776",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+      "fullname": "Meta Llama",
+      "name": "meta-llama",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "enterprise",
+      "followerCount": 86785,
+      "isUserFollowing": false
+    },
+    "notes": "GPQA Diamond",
+    "lower_is_better": false,
+    "num_parameters": 1235814400
+  }
+]

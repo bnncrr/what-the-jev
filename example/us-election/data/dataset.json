@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "E01",
+      "input": {
+        "state": "2024年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
+              "democratic": "民主党候选人卡玛拉·哈里斯（Kamala Harris）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "republican"}
+      }
+    },
+    {
+      "id": "E02",
+      "input": {
+        "state": "2020年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
+              "democratic": "民主党候选人乔·拜登（Joe Biden）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "democratic"}
+      }
+    },
+    {
+      "id": "E03",
+      "input": {
+        "state": "2016年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人唐纳德·特朗普（Donald Trump）获胜。",
+              "democratic": "民主党候选人希拉里·克林顿（Hillary Clinton）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "republican"}
+      }
+    },
+    {
+      "id": "E04",
+      "input": {
+        "state": "2012年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人米特·罗姆尼（Mitt Romney）获胜。",
+              "democratic": "民主党候选人贝拉克·奥巴马（Barack Obama）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "democratic"}
+      }
+    },
+    {
+      "id": "E05",
+      "input": {
+        "state": "2008年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人约翰·麦凯恩（John McCain）获胜。",
+              "democratic": "民主党候选人贝拉克·奥巴马（Barack Obama）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "democratic"}
+      }
+    },
+    {
+      "id": "E06",
+      "input": {
+        "state": "2004年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人乔治·沃克·布什（George W. Bush）获胜。",
+              "democratic": "民主党候选人约翰·克里（John Kerry）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "republican"}
+      }
+    },
+    {
+      "id": "E07",
+      "input": {
+        "state": "2000年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人乔治·沃克·布什（George W. Bush）获胜。",
+              "democratic": "民主党候选人阿尔·戈尔（Al Gore）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "republican"}
+      }
+    },
+    {
+      "id": "E08",
+      "input": {
+        "state": "1996年美国总统大选",
+        "questions": {
+          "winner": {
+            "type": "choice",
+            "instructions": "判断该次大选由哪位候选人获胜。",
+            "criteria": {
+              "republican": "共和党候选人鲍勃·多尔（Bob Dole）获胜。",
+              "democratic": "民主党候选人比尔·克林顿（Bill Clinton）获胜。",
+              "other": "其他候选人获胜、选举尚未举行，或无法确定获胜者。"
+            }
+          }
+        }
+      },
+      "reference": {
+        "winner": {"choice": "democratic"}
+      }
+    }
+  ]
+}
