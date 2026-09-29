@@ -1,25 +1,27 @@
 # Examples
 
-七个小样本示例，按考察的能力分组。简介说明该示例实际考的是什么。
+*English | [简体中文](INDEX_ZH.md)*
 
-## 一、历史常识
+Seven small-sample examples, grouped by the ability they probe. Each description states what the example actually examines.
 
-1. [us-election](us-election/README.md) — 测试JEV模型能否回忆 1996 至 2024 年八届美国总统大选的胜选者。考察的是 JEV 模型是否将这些事实记在了参数中。
+## 1. Historical Knowledge
 
-## 二、算术与计算
+1. [us-election](us-election/README.md) — Tests whether Jev can recall the winners of the eight US presidential elections from 1996 to 2024. What is examined is whether Jev has memorized these facts in its parameters.
 
-1. [math-word-problem](math-word-problem/README.md) — 测试JEV模型在小学算术应用题上的表现。两题：一题是 GSM8K 的原题，另一题是同结构改编题。
-2. [university-math](university-math/README.md) — 测试JEV模型在微积分、线性代数与概率计算题上的表现。
+## 2. Arithmetic and Computation
 
-## 三、图像识别
+1. [math-word-problem](math-word-problem/README.md) — Tests Jev on grade-school arithmetic word problems: one original GSM8K problem and one same-structure adaptation.
+2. [university-math](university-math/README.md) — Tests Jev on calculus, linear algebra, and probability problems.
 
-1. [pixel-recognition](pixel-recognition/README.md) — 测试JEV模型能否仅凭像素数值识别图像内容。
-2. [digit-formats](digit-formats/README.md) — 测试JEV模型能否从 base64 编码的 PNG data URI 中识别手写数字。
+## 3. Image Recognition
 
-## 四、伦理决策
+1. [pixel-recognition](pixel-recognition/README.md) — Tests whether Jev can identify image content from raw pixel values alone.
+2. [digit-formats](digit-formats/README.md) — Tests whether Jev can recognize a handwritten digit from a base64-encoded PNG data URI.
 
-1. [ethics-dilemmas](ethics-dilemmas/README.md) — 测试JEV模型在经典伦理困境中的行为可接受性判断。
+## 4. Ethical Decision-Making
 
-## 五、业务决策
+1. [ethics-dilemmas](ethics-dilemmas/README.md) — Tests Jev's acceptability judgments in classic ethical dilemmas.
 
-1. [ticket-triage](ticket-triage/README.md) — 测试JEV模型对客服工单的分类、退款诉求与紧急程度判断。
+## 5. Business Decision-Making
+
+1. [ticket-triage](ticket-triage/README.md) — Tests Jev's classification of customer-support tickets, refund claims, and urgency triage.
